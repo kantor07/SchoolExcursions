@@ -1,0 +1,45 @@
+/* mixin */
+/* mixin */
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  min-height: 100vh;
+  margin: 0;
+}
+
+body {
+  /*  @include font(16px, 400);  */
+  display: flex;
+  flex-direction: column;
+  border: 1px solid red;
+}
+
+.hidden-section {
+  position: absolute;
+  left: -9999px;
+  width: 1px;
+  height: 1px;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.container {
+  min-width: 325px;
+  max-width: 1240px;
+  margin: 0 auto;
+  border: 1px solid blue;
+}
+
+.main {
+  flex-grow: 1;
+  border: 5px solid green;
+}
+
+/* header */
+/* main */
+/* section categories */
+/* section reviews */
+/* footer *//*# sourceMappingURL=style.css.map */

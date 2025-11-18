@@ -1,0 +1,48 @@
+/* mixin */
+@use "blocks/mixin.scss";
+
+/* header */
+@use "blocks/header.scss";
+
+/* main */
+/* section categories */
+@use "blocks/categories.scss";
+
+/* section reviews */
+@use "blocks/reviews.scss";
+
+/* footer */
+@use "blocks/footer.scss";
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  min-height: 100vh;
+  margin: 0;
+}
+
+body {
+  /*  @include font(16px, 400);  */
+  display: flex;
+  flex-direction: column;
+  border: 1px solid red;
+}
+
+.hidden-section {
+  @include hidden();
+}
+
+.container {
+  min-width: 320px;
+  max-width: 1240px;
+  margin: 0 auto;
+  border: 1px solid blue;
+}
+
+.main {
+  flex-grow: 1;
+  border: 5px solid green;
+}
