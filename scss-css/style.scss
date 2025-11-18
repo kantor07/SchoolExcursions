@@ -1,6 +1,3 @@
-/* mixin */
-@use "blocks/mixin.scss";
-
 /* header */
 @use "blocks/header.scss";
 
@@ -13,6 +10,16 @@
 
 /* footer */
 @use "blocks/footer.scss";
+
+/* mixin */
+@mixin hidden($width: 1px, $height: 1px) {
+  position: absolute;
+  left: -9999px;
+  width: $width;
+  height: $height;
+  opacity: 0;
+  visibility: hidden;
+}
 
 * {
   box-sizing: border-box;
