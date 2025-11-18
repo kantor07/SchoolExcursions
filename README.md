@@ -1,0 +1,2 @@
+# SchoolExcursions
+сайт школьных экскурсий
