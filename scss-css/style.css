@@ -1,3 +1,14 @@
+/* header */
+.nav,
+.header-logo-href {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* main */
+/* section categories */
+/* section reviews */
+/* footer */
 /* mixin */
 /* mixin */
 * {
@@ -27,7 +38,7 @@ body {
 }
 
 .container {
-  min-width: 325px;
+  min-width: 320px;
   max-width: 1240px;
   margin: 0 auto;
   border: 1px solid blue;
@@ -36,10 +47,4 @@ body {
 .main {
   flex-grow: 1;
   border: 5px solid green;
-}
-
-/* header */
-/* main */
-/* section categories */
-/* section reviews */
-/* footer *//*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */
