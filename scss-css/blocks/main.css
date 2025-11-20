@@ -1,4 +1,8 @@
+.main {
+  background-color: #d7dcdf;
+}
+
 .main-container {
-  min-height: 600px;
+  min-height: 750px;
   background: url("../img/main-img.jpg") center top no-repeat;
 }/*# sourceMappingURL=main.css.map */
