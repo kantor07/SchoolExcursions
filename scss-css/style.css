@@ -156,6 +156,11 @@
 }
 
 /* main */
+.main-container {
+  min-height: 600px;
+  background: url("../img/main-img.jpg") center top no-repeat;
+}
+
 /* section categories */
 /* section reviews */
 /* footer */
