@@ -1,3 +1,17 @@
-.container {
-  margin: 0px;
+/* mixin */
+@use "blocks/mixin.scss";
+
+/* breadcrumbs */
+.menu-breadcrumbs {
+  display: flex;
+  list-style: none;
+}
+
+.menu-list-breadcrumbs {
+}
+
+.menu-link-breadcrumbs {
+  @include font(14px);
+
+  text-decoration: none;
 }

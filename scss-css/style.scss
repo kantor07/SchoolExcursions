@@ -1,3 +1,6 @@
+/* mixin */
+@use "blocks/mixin.scss";
+
 /* header */
 @use "blocks/header.scss";
 
@@ -14,25 +17,6 @@
 
 /* footer */
 @use "blocks/footer.scss";
-
-/* mixin */
-@mixin hidden($width: 1px, $height: 1px) {
-  position: absolute;
-  left: -9999px;
-  width: $width;
-  height: $height;
-  opacity: 0;
-  visibility: hidden;
-}
-
-@mixin font($size: 14px, $color: black) {
-  font-family: "Gabriela", serif;
-  font-size: $size;
-  font-weight: 400;
-  font-style: normal;
-
-  color: $color;
-}
 
 * {
   box-sizing: border-box;
