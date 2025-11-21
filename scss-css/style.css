@@ -210,6 +210,16 @@
   background-color: #ffffff;
 }
 
+/* breadcrumbs */
+.menu-breadcrumbs {
+  display: flex;
+  list-style: none;
+}
+
+.menu-link-breadcrumbs {
+  text-decoration: none;
+}
+
 /* section reviews */
 /* footer */
 .footer-container {

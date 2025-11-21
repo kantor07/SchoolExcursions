@@ -5,12 +5,7 @@
 .info {
   margin: 0px;
 
-  font-family: "Gabriela", serif;
-  font-size: 8px;
-  font-weight: 400;
-  font-style: normal;
-
-  color: black;
+  @include font(8px);
 }
 
 .footer-menu {

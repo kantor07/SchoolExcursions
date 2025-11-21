@@ -7,6 +7,8 @@
 /* section category page */
 @use "blocks/category-page.scss";
 
+@use "blocks/breadcrumbls.scss";
+
 /* section reviews */
 @use "blocks/reviews.scss";
 
@@ -21,6 +23,15 @@
   height: $height;
   opacity: 0;
   visibility: hidden;
+}
+
+@mixin font($size: 14px, $color: black) {
+  font-family: "Gabriela", serif;
+  font-size: $size;
+  font-weight: 400;
+  font-style: normal;
+
+  color: $color;
 }
 
 * {

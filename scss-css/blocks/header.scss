@@ -111,12 +111,7 @@
 
 .menu-link,
 .link-list {
-  font-family: "Gabriela", serif;
-  font-size: 25px;
-  font-weight: 400;
-  font-style: normal;
-
-  color: black;
+  @include font(25px);
 }
 
 .link-list {
