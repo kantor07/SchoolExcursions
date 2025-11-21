@@ -196,7 +196,7 @@
   }
 }
 /* main */
-.main {
+.main-page-container {
   background-color: #d7dcdf;
 }
 
@@ -205,7 +205,11 @@
   background: url("../img/main-img.jpg") center top no-repeat;
 }
 
-/* section categories */
+/* section category page */
+.category-main-container {
+  background-color: #ffffff;
+}
+
 /* section reviews */
 /* footer */
 .footer-container {
