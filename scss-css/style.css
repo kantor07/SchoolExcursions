@@ -19,7 +19,7 @@
   font-family: "Great Vibes", cursive;
   font-weight: 600;
   font-style: normal;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 0.65;
   padding-top: 12px;
 }
@@ -30,8 +30,11 @@
 }
 
 /* header menu */
-#menu {
-  display: none;
+.main-nav {
+  position: relative;
+}
+.main-nav:hover .header-menu {
+  opacity: 1;
 }
 
 .burger {
@@ -40,12 +43,13 @@
   height: 20px;
   display: block;
   background-color: #ffffff;
+  border: none;
 }
 
 .burger span {
-  display: block;
   width: 18px;
   height: 2px;
+  display: block;
   background-color: #03a9f4;
 }
 
@@ -67,26 +71,19 @@
   height: 2px;
 }
 
-.header-menu {
-  margin-top: 20px;
-  display: none;
-  width: 100%;
-  height: 100%;
-  outline: 1px solid #03a9f4;
-}
-
-#menu:checked ~ .header-menu {
-  display: block;
-  position: fixed;
-  left: 0;
-  right: 0;
-  box-sizing: border-box;
-}
-
 .drop-menu {
+  position: fixed;
+  right: 0;
+  top: 40px;
   padding: 30px 0px;
-  text-align: center;
+  width: 200px;
   background-color: #ffffff;
+  outline: 1px solid #03a9f4;
+  border-radius: 16px;
+}
+
+.header-menu {
+  opacity: 0;
 }
 
 /* menu */
@@ -105,7 +102,7 @@
 .menu-link,
 .link-list {
   font-family: "Gabriela", serif;
-  font-size: 14px;
+  font-size: 20px;
   font-weight: 400;
   font-style: normal;
   color: black;
@@ -122,33 +119,28 @@
 .link-list::after {
   margin-left: 5px;
   display: inline-block;
-  width: 3px;
-  height: 10px;
+  width: 20px;
+  height: 20px;
   content: "";
   background: url("../img/caret.png") no-repeat;
   padding-right: 0.5em;
-  background-size: 10px;
+  background-size: 15px;
   transform: rotateZ(90deg);
+  translate: 0px 10px;
 }
 
-.list[open] > summary::after {
+.list[open] > list-link::after {
   content: "";
   background: url("../img/caret.png") no-repeat;
-  background-size: 10px;
+  background-size: 15px;
   transform: rotateZ(-90deg);
-  translate: 0px 3px;
+  translate: 0px -2px;
 }
 
 .list-menu {
   padding-top: 10px;
   display: flex;
   flex-direction: column;
-}
-
-.nav-footer {
-  height: 100%;
-  background-color: #d7dcdf;
-  opacity: 0.8;
 }
 
 @media (min-width: 620px) {
@@ -183,9 +175,6 @@
   }
   .list-menu {
     position: fixed;
-  }
-  .nav-footer {
-    display: none;
   }
   .menu-link,
   .link-list {
