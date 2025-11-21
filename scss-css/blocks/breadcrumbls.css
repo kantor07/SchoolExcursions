@@ -1,3 +1,16 @@
-.container {
-  margin: 0px;
+/* mixin */
+/* mixin */
+/* breadcrumbs */
+.menu-breadcrumbs {
+  display: flex;
+  list-style: none;
+}
+
+.menu-link-breadcrumbs {
+  font-family: "Gabriela", serif;
+  font-size: 14px;
+  font-weight: 400;
+  font-style: normal;
+  color: black;
+  text-decoration: none;
 }/*# sourceMappingURL=breadcrumbls.css.map */

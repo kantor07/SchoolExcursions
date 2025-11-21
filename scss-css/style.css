@@ -1,4 +1,8 @@
+/* mixin */
+/* mixin */
 /* header */
+/* mixin */
+/* mixin */
 /* header logo */
 .nav,
 .logo-href {
@@ -206,10 +210,9 @@
 }
 
 /* section category page */
-.category-main-container {
-  background-color: #ffffff;
-}
-
+/* mixin */
+/* mixin */
+/* mixin */
 /* breadcrumbs */
 .menu-breadcrumbs {
   display: flex;
@@ -217,11 +220,18 @@
 }
 
 .menu-link-breadcrumbs {
+  font-family: "Gabriela", serif;
+  font-size: 14px;
+  font-weight: 400;
+  font-style: normal;
+  color: black;
   text-decoration: none;
 }
 
 /* section reviews */
 /* footer */
+/* mixin */
+/* mixin */
 .footer-container {
   background-color: #d7dcdf;
 }
@@ -266,7 +276,6 @@
     display: block;
   }
 }
-/* mixin */
 * {
   box-sizing: border-box;
 }

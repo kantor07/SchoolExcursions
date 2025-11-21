@@ -1,22 +1,22 @@
 /* mixin */
-@use "blocks/mixin.scss";
+@import "blocks/mixin.scss";
 
 /* header */
-@use "blocks/header.scss";
+@import "blocks/header.scss";
 
 /* main */
-@use "blocks/main.scss";
+@import "blocks/main.scss";
 
 /* section category page */
-@use "blocks/category-page.scss";
+@import "blocks/category-page.scss";
 
-@use "blocks/breadcrumbls.scss";
+@import "blocks/breadcrumbls.scss";
 
 /* section reviews */
-@use "blocks/reviews.scss";
+@import "blocks/reviews.scss";
 
 /* footer */
-@use "blocks/footer.scss";
+@import "blocks/footer.scss";
 
 * {
   box-sizing: border-box;

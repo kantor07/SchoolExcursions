@@ -1,5 +1,5 @@
 /* mixin */
-@use "blocks/mixin.scss";
+@import "mixin.scss";
 
 /* header logo */
 
@@ -114,7 +114,7 @@
 
 .menu-link,
 .link-list {
-  @include font(25px);
+  @include font(25px, black);
 }
 
 .link-list {
