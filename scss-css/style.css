@@ -4,6 +4,10 @@
 /* mixin */
 /* mixin */
 /* header logo */
+.header {
+  border-bottom: 1px solid #03a9f4;
+}
+
 .nav,
 .logo-href {
   display: flex;
@@ -133,12 +137,12 @@
   translate: 0px 10px;
 }
 
-.list[open] > list-link::after {
+.list[open] > summary::after {
   content: "";
   background: url("../img/caret.png") no-repeat;
   background-size: 15px;
   transform: rotateZ(-90deg);
-  translate: 0px -2px;
+  translate: 0px -3px;
 }
 
 .list-menu {
@@ -211,21 +215,45 @@
 
 /* section category page */
 /* mixin */
+.category-main-container {
+  border-top: 1px solid #03a9f4;
+}
+
 /* mixin */
 /* mixin */
 /* breadcrumbs */
+.breadcrumbs {
+  padding: 10px 0px;
+}
+
 .menu-breadcrumbs {
+  margin: 0;
+  padding: 0;
   display: flex;
   list-style: none;
 }
 
-.menu-link-breadcrumbs {
+.menu-link-breadcrumbs,
+.menu-link-breadcrumbs-bold {
   font-family: "Gabriela", serif;
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 400;
   font-style: normal;
   color: black;
   text-decoration: none;
+  color: rgba(0, 0, 0, 0.6);
+}
+.menu-link-breadcrumbs:hover,
+.menu-link-breadcrumbs-bold:hover {
+  color: #000000;
+}
+.menu-link-breadcrumbs:active,
+.menu-link-breadcrumbs-bold:active {
+  color: #000000;
+}
+
+.menu-link-breadcrumbs-bold {
+  color: #000000;
 }
 
 /* section reviews */

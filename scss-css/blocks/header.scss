@@ -3,6 +3,10 @@
 
 /* header logo */
 
+.header {
+  border-bottom: 1px solid #03a9f4;
+}
+
 .nav,
 .logo-href {
   display: flex;
@@ -142,13 +146,13 @@
   translate: 0px 10px;
 }
 
-.list[open] > list-link::after {
+.list[open] > summary::after {
   content: "";
   background: url("../img/caret.png") no-repeat;
   background-size: 15px;
 
   transform: rotateZ(-90deg);
-  translate: 0px -2px;
+  translate: 0px -3px;
 }
 
 .list-menu {

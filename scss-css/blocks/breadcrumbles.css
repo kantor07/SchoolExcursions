@@ -1,0 +1,36 @@
+/* mixin */
+/* mixin */
+/* breadcrumbles */
+.breadcrumbls {
+  padding: 10px 0px;
+}
+
+.menu-breadcrumbles {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  list-style: none;
+}
+
+.menu-link-breadcrumbles,
+.menu-link-breadcrumbles-bold {
+  font-family: "Gabriela", serif;
+  font-size: 12px;
+  font-weight: 400;
+  font-style: normal;
+  color: black;
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.6);
+}
+.menu-link-breadcrumbles:hover,
+.menu-link-breadcrumbles-bold:hover {
+  color: #000000;
+}
+.menu-link-breadcrumbles:active,
+.menu-link-breadcrumbles-bold:active {
+  color: #000000;
+}
+
+.menu-link-breadcrumbles-bold {
+  color: #000000;
+}/*# sourceMappingURL=breadcrumbles.css.map */
