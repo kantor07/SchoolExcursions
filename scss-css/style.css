@@ -42,7 +42,7 @@
   position: relative;
 }
 .main-nav:hover .header-menu {
-  opacity: 1;
+  transform: scale(1, 1);
 }
 
 .burger {
@@ -81,8 +81,8 @@
 
 .drop-menu {
   position: fixed;
-  right: 0;
-  top: 40px;
+  right: -15px;
+  top: 20px;
   padding: 30px 10px;
   width: 250px;
   background-color: #ffffff;
@@ -91,7 +91,9 @@
 }
 
 .header-menu {
-  opacity: 0;
+  transform: scale(0, 0);
+  transform-origin: right top;
+  transition: 0.5s;
 }
 
 /* menu */
@@ -168,7 +170,9 @@
     display: none;
   }
   .header-menu {
-    opacity: 1;
+    transform: scale(1, 1);
+    transform-origin: right top;
+    transition: 0.5s;
   }
   .drop-menu {
     position: relative;
@@ -219,41 +223,57 @@
   border-top: 1px solid #03a9f4;
 }
 
+.item::-webkit-details-marker {
+  display: none;
+}
+
 /* mixin */
 /* mixin */
-/* breadcrumbs */
-.breadcrumbs {
+/* breadcrumbles */
+.breadcrumbles {
   padding: 10px 0px;
 }
 
-.menu-breadcrumbs {
+.menu-breadcrumbles {
   margin: 0;
   padding: 0;
   display: flex;
   list-style: none;
 }
 
-.menu-link-breadcrumbs,
-.menu-link-breadcrumbs-bold {
+.menu-link-breadcrumbles,
+.menu-link-breadcrumbles-bold {
   font-family: "Gabriela", serif;
   font-size: 12px;
   font-weight: 400;
   font-style: normal;
   color: black;
   text-decoration: none;
-  color: rgba(0, 0, 0, 0.6);
 }
-.menu-link-breadcrumbs:hover,
-.menu-link-breadcrumbs-bold:hover {
+.menu-link-breadcrumbles:hover,
+.menu-link-breadcrumbles-bold:hover {
   color: #000000;
 }
-.menu-link-breadcrumbs:active,
-.menu-link-breadcrumbs-bold:active {
+.menu-link-breadcrumbles:active,
+.menu-link-breadcrumbles-bold:active {
   color: #000000;
 }
 
-.menu-link-breadcrumbs-bold {
+.menu-link-breadcrumbles-bold {
   color: #000000;
+}
+
+.menu-link-breadcrumbles {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.arrow-menu-breadcrumbles {
+  width: 10px;
+  height: 10px;
+  display: inline-block;
+  padding: 5px;
+  background: url(../img/caret.png) no-repeat;
+  background-size: 10px;
 }
 
 /* section reviews */

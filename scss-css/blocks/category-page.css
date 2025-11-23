@@ -2,4 +2,8 @@
 /* mixin */
 .category-main-container {
   border-top: 1px solid #03a9f4;
+}
+
+.item::-webkit-details-marker {
+  display: none;
 }/*# sourceMappingURL=category-page.css.map */
