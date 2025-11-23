@@ -4,6 +4,103 @@
   border-top: 1px solid #03a9f4;
 }
 
+/* items */
+.items {
+  margin: 30px 0px;
+}
+
 .item::-webkit-details-marker {
   display: none;
+}
+
+.item {
+  font-family: "Gabriela", serif;
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+  color: #03a9f4;
+  translate: 170px 120px;
+  list-style: none;
+  transition: 0.5s;
+}
+
+.item-cart {
+  margin-bottom: 50px;
+  min-width: 280px;
+  max-width: 500px;
+  height: 150px;
+  background: url(../img/sobor.jpg) no-repeat;
+  background-size: 100% 100%;
+  outline: 1px solid #03a9f4;
+  border-radius: 16px;
+}
+
+.item-list[open] {
+  padding-bottom: 100px;
+  border-radius: 16px 16px 0px 0px;
+}
+
+.item-desc {
+  width: 280px;
+  translate: 0px 110px;
+  outline: 1px solid #03a9f4;
+  border-radius: 0px 0px 16px 16px;
+}
+
+.item-desc {
+  font-family: "Gabriela", serif;
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+  color: black;
+}
+
+.item-title {
+  padding-top: 20px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.item-text {
+  padding: 50px 20px;
+  font-size: 14px;
+}
+
+.details {
+  position: relative;
+  display: block;
+  max-width: 650px;
+  margin: 0 auto 10px;
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 5px;
+  transition: 0.3s;
+  overflow: hidden;
+}
+
+.details[open] {
+  padding-bottom: 100px;
+}
+
+.details[open] .details__title {
+  margin-bottom: 32px;
+}
+
+.details__title {
+  background: #fff;
+  border-radius: 5px;
+  padding: 12px 24px;
+  font-size: 20px;
+  cursor: pointer;
+  list-style: none;
+  font-weight: 700;
+  transition: 0.3s;
+}
+
+.details__title::-webkit-details-marker {
+  display: none;
+}
+
+.details__content {
+  padding: 0 32px;
+  font-size: 18px;
 }/*# sourceMappingURL=category-page.css.map */
