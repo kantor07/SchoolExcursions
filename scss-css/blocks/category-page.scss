@@ -60,10 +60,6 @@
 
   list-style: none;
   transition: 1s;
-
-  &:hover {
-    color: #03f40d9e;
-  }
 }
 
 .item-title::after {
@@ -75,6 +71,7 @@
 .item-list[open] > summary::after {
   content: "закрыть";
   font-size: 14px;
+  text-shadow: 1px 1px 2px #03f40d9e;
 }
 
 .item-list[open] {
