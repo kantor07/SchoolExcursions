@@ -52,7 +52,10 @@
 .item-title {
   padding: 20px;
   list-style: none;
-  transition: 0.5s;
+  transition: 1s;
+}
+.item-title:hover {
+  color: rgba(3, 244, 13, 0.6196078431);
 }
 
 .item-title::after {
