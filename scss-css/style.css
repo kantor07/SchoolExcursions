@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* mixin */
 /* mixin */
 /* header */
@@ -156,6 +157,7 @@
 @media (min-width: 620px) {
   /* header logo */
   .logo {
+    padding-top: 10px;
     width: 25%;
   }
   .title {
@@ -246,15 +248,16 @@
   font-weight: 400;
   font-style: normal;
   color: #03a9f4;
+  display: flex;
+  justify-content: space-between;
 }
 
 .item-cart-desc {
-  position: absolute;
-  top: 0px;
   padding: 0px 20px;
-  min-width: 280px;
-  display: flex;
-  justify-content: space-between;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
 }
 
 .item-img {
@@ -271,6 +274,17 @@
   padding: 20px;
   list-style: none;
   transition: 0.5s;
+}
+
+.item-title::after {
+  display: inline-block;
+  content: "подробнее ...";
+  font-size: 14px;
+}
+
+.item-list[open] > summary::after {
+  content: "закрыть";
+  font-size: 14px;
 }
 
 .item-list[open] {
@@ -294,57 +308,65 @@
   .item-img {
     height: 300px;
   }
-  .item-text {
-    font-family: "Gabriela", serif;
+  .item-text,
+  .item-cart-desc {
     font-size: 16px;
-    font-weight: 400;
-    font-style: normal;
-    color: black;
   }
   .item-title {
-    font-family: "Gabriela", serif;
-    font-size: 20px;
-    font-weight: 400;
-    font-style: normal;
-    color: #03a9f4;
+    font-size: 25px;
+  }
+  .item-list[open] > summary::after {
+    content: "закрыть";
+    font-size: 16px;
+    padding-top: 15px;
+  }
+  .item-title::after {
+    display: inline-block;
+    content: "подробнее ...";
+    font-size: 16px;
+    padding-top: 15px;
   }
 }
 @media (min-width: 700px) {
   .item-img {
     height: 350px;
   }
-  .item-text {
-    font-family: "Gabriela", serif;
+  .item-text,
+  .item-cart-desc {
     font-size: 20px;
-    font-weight: 400;
-    font-style: normal;
-    color: black;
   }
   .item-title {
-    font-family: "Gabriela", serif;
-    font-size: 25px;
-    font-weight: 400;
-    font-style: normal;
-    color: #03a9f4;
+    font-size: 35px;
+  }
+  .item-list[open] > summary::after {
+    content: "закрыть";
+    font-size: 20px;
+  }
+  .item-title::after {
+    display: inline-block;
+    content: "подробнее ...";
+    font-size: 20px;
   }
 }
 @media (min-width: 1024px) {
   .item-img {
     height: 650px;
   }
-  .item-text {
-    font-family: "Gabriela", serif;
+  .item-text,
+  .item-cart-desc {
     font-size: 25px;
-    font-weight: 400;
-    font-style: normal;
-    color: black;
   }
   .item-title {
-    font-family: "Gabriela", serif;
-    font-size: 35px;
-    font-weight: 400;
-    font-style: normal;
-    color: #03a9f4;
+    font-size: 45px;
+  }
+  .item-list[open] > summary::after {
+    content: "закрыть";
+    font-size: 25px;
+  }
+  .item-title::after {
+    display: inline-block;
+    content: "подробнее ...";
+    font-size: 25px;
   }
 }
 /* mixin */
@@ -484,6 +506,6 @@ body {
 
 @media (min-width: 620px) {
   .container {
-    padding: 30px 0;
+    padding: 0px 0px;
   }
 }/*# sourceMappingURL=style.css.map */

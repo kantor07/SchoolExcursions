@@ -153,6 +153,7 @@
 @media (min-width: 620px) {
   /* header logo */
   .logo {
+    padding-top: 10px;
     width: 25%;
   }
   .title {
