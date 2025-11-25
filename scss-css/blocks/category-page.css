@@ -92,14 +92,14 @@
 
 @media (min-width: 620px) {
   .item-img {
-    height: 350px;
+    height: 250px;
   }
   .item-text,
   .item-cart-desc {
     font-size: 16px;
   }
   .item-title {
-    font-size: 25px;
+    font-size: 20px;
   }
   .item-list[open] > summary::after {
     content: "закрыть";
@@ -115,43 +115,24 @@
 }
 @media (min-width: 700px) {
   .item-img {
-    height: 450px;
-  }
-  .item-text,
-  .item-cart-desc {
-    font-size: 20px;
-  }
-  .item-title {
-    font-size: 35px;
-  }
-  .item-list[open] > summary::after {
-    content: "закрыть";
-    font-size: 20px;
-  }
-  .item-title::after {
-    display: inline-block;
-    content: "подробнее ...";
-    font-size: 20px;
+    height: 300px;
   }
 }
 @media (min-width: 1024px) {
-  .item-img {
-    height: 650px;
-  }
   .item-text,
   .item-cart-desc {
-    font-size: 25px;
+    font-size: 20px;
   }
   .item-title {
-    font-size: 45px;
+    font-size: 25px;
   }
   .item-list[open] > summary::after {
     content: "закрыть";
-    font-size: 25px;
+    font-size: 20px;
   }
   .item-title::after {
     display: inline-block;
     content: "подробнее ...";
-    font-size: 25px;
+    font-size: 20px;
   }
 }/*# sourceMappingURL=category-page.css.map */
