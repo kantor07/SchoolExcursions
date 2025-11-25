@@ -411,7 +411,6 @@
 /* mixin */
 /* mixin */
 .footer-container {
-  height: 80px;
   background-color: #d7dcdf;
 }
 
@@ -465,10 +464,9 @@ body {
   margin: 0;
 }
 
-body {
+.page {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   outline: 1px solid red;
 }
 
