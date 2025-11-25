@@ -3,6 +3,12 @@
 }
 
 .main-container {
-  min-height: 600px;
+  height: 600px;
   background: url("../img/main-img.jpg") center top no-repeat;
+}
+
+@media (min-width: 620px) {
+  .main-container {
+    height: 750px;
+  }
 }/*# sourceMappingURL=main.css.map */
