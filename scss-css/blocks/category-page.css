@@ -86,6 +86,7 @@
 }
 
 .item-text {
+  padding: 50px 20px;
   font-size: 14px;
 }
 
@@ -151,6 +152,10 @@
   height: 20px;
 }
 
+.item-desc-title {
+  padding: 25px 5px 5px 5px;
+}
+
 .item-desc-text {
   padding-left: 10px;
   flex-grow: 1;
@@ -159,8 +164,17 @@
   font-weight: 600;
 }
 
-.item-text {
-  padding: 50px 20px;
+.item-desc-table {
+  list-style-type: none;
+  padding: 0;
+}
+
+.item-desc-list {
+  padding: 10px 0px;
+}
+
+.item-desc-list-title {
+  font-weight: 600;
 }
 
 @media (min-width: 620px) {
@@ -168,7 +182,8 @@
     height: 250px;
   }
   .item-text,
-  .item-cart-desc {
+  .item-cart-desc,
+  .item-desc-list-title {
     font-size: 16px;
   }
   .item-title {
