@@ -414,6 +414,21 @@
   font-weight: 600;
 }
 
+/* section gallery */
+.gallery-container {
+  padding: 50px 20px;
+}
+
+.gallery-title {
+  padding-bottom: 20px;
+  font-family: "Gabriela", serif;
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+  color: #03a9f4;
+  text-align: center;
+}
+
 @media (min-width: 420px) {
   .item-title::after {
     display: inline-block;
@@ -446,7 +461,8 @@
   .item-desc-list-title {
     font-size: 16px;
   }
-  .item-title {
+  .item-title,
+  .item-gallery-title {
     font-size: 20px;
   }
   .item-list[open] > summary::after {
@@ -474,7 +490,8 @@
   .item-cart-desc {
     font-size: 20px;
   }
-  .item-title {
+  .item-title,
+  .item-gallery-title {
     font-size: 25px;
   }
   .item-list[open] > summary::after {
