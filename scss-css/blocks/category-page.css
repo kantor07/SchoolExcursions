@@ -100,8 +100,8 @@
 .basic-info-list,
 .basic-info-list-link {
   margin: 0px 0px 20px 10px;
-  padding: 20px;
-  width: 250px;
+  padding: 10px;
+  width: 260px;
   height: 100px;
   border-radius: 16px;
   align-content: center;
@@ -111,6 +111,7 @@
   outline: 1px solid #03a9f4;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .basic-info-list-link {
@@ -141,7 +142,6 @@
 }
 
 .basic-info-icon {
-  padding-top: 10px;
   margin-right: 5px;
 }
 
