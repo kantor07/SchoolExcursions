@@ -1,1 +1,82 @@
-/*# sourceMappingURL=reviews.css.map */
+/*mixin */
+/* mixin */
+/* section reviews */
+.reviews-container {
+  padding: 50px 20px;
+}
+
+.reviews-title {
+  padding-bottom: 20px;
+  font-family: "Gabriela", serif;
+  font-size: 18px;
+  font-weight: 400;
+  font-style: normal;
+  color: #03a9f4;
+  text-align: center;
+}
+
+/* review-cart */
+.review-cart {
+  padding: 10px 40px;
+  min-width: 240px;
+  max-width: 450px;
+  font-family: "Gabriela", serif;
+  font-size: 14px;
+  font-weight: 400;
+  font-style: normal;
+  color: #03a9f4;
+  border: 1px solid #03a9f4;
+  border-radius: 16px;
+}
+
+.review-text {
+  color: black;
+}
+
+.item-name,
+.guide-name {
+  font-size: 12px;
+}
+
+.span-guide-name {
+  padding-right: 5px;
+}
+
+.arrow-left {
+  background: url(../img/caret.png) no-repeat;
+  background-size: 20px;
+}
+
+.arrow-right {
+  background: url(../img/caret.png) no-repeat;
+  background-size: 20px;
+  transform: rotate(-180deg);
+  translate: 0px -12px;
+}
+
+@media (min-width: 620px) {
+  .reviews-title {
+    font-size: 20px;
+  }
+  .review-author-name,
+  .review-text {
+    font-size: 16px;
+  }
+  .item-name,
+  .guide-name {
+    font-size: 14px;
+  }
+}
+@media (min-width: 1024px) {
+  .reviews-title {
+    font-size: 25px;
+  }
+  .review-author-name,
+  .review-text {
+    font-size: 20px;
+  }
+  .item-name,
+  .guide-name {
+    font-size: 16px;
+  }
+}/*# sourceMappingURL=reviews.css.map */
