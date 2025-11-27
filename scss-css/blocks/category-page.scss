@@ -17,6 +17,7 @@
   position: relative;
 
   min-width: 280px;
+  max-width: 450px;
 
   margin-bottom: 30px;
 
@@ -176,8 +177,6 @@
 }
 
 .item-desc-text {
-  padding-left: 10px;
-
   flex-grow: 1;
   text-align: end;
   align-content: center;
@@ -215,39 +214,20 @@
 }
 
 @media (min-width: 420px) {
-  .item-title::after {
-    display: inline-block;
-    content: "подробнее ...";
-    font-size: 14px;
-
-    width: auto;
-    height: auto;
-
-    background: none;
-    background-size: auto;
-
-    transform: none;
-    translate: none;
-  }
-
-  .item-list[open] > summary::after {
-    content: "закрыть";
-    font-size: 14px;
-
-    width: auto;
-    height: auto;
-
-    background: none;
-    background-size: auto;
-
-    transform: none;
-    translate: none;
+  .basic-info-list,
+  .basic-info-list-link {
+    width: 280px;
   }
 }
 
 @media (min-width: 620px) {
-  .item-img {
-    height: 250px;
+  .items-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .item-cart {
+    width: 450px;
   }
 
   .item-text,
@@ -262,11 +242,13 @@
   }
 
   .item-list[open] > summary::after {
-    font-size: 16px;
+    background-size: 15px;
+    translate: 0px 2px;
   }
 
   .item-title::after {
-    font-size: 16px;
+    background-size: 15px;
+    translate: 0px 10px;
   }
 
   .basic-info-list,
@@ -276,10 +258,6 @@
 }
 
 @media (min-width: 700px) {
-  .item-img {
-    height: 300px;
-  }
-
   .basic-info-list,
   .basic-info-list-link {
     width: 300px;
