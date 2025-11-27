@@ -16,10 +16,11 @@
 /* review-cart */
 
 .review-cart {
-  padding: 10px 40px;
+  padding: 10px 20px;
 
   min-width: 240px;
   max-width: 450px;
+  height: 500px;
 
   @include font(14px, #03a9f4);
   border: 1px solid #03a9f4;
@@ -52,6 +53,10 @@
 }
 
 @media (min-width: 620px) {
+  .review-cart {
+    height: 350px;
+  }
+
   .reviews-title {
     font-size: 20px;
   }
