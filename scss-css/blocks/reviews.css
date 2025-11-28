@@ -46,19 +46,22 @@
 .arrow-left {
   background: url(../img/caret.png) no-repeat;
   background-size: 20px;
+  translate: 15px 0px;
 }
 
 .arrow-right {
   background: url(../img/caret.png) no-repeat;
   background-size: 20px;
   transform: rotate(-180deg);
-  translate: 0px -12px;
+  translate: -15px -12px;
 }
 
-@media (min-width: 620px) {
+@media (min-width: 420px) {
   .review-cart {
     height: 350px;
   }
+}
+@media (min-width: 620px) {
   .reviews-title {
     font-size: 20px;
   }
