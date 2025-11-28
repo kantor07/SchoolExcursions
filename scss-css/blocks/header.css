@@ -80,7 +80,7 @@
   position: fixed;
   right: -15px;
   top: 20px;
-  padding: 30px 10px;
+  padding: 20px;
   width: 250px;
   background-color: #ffffff;
   outline: 1px solid #03a9f4;
@@ -133,7 +133,7 @@
   padding-right: 0.5em;
   background-size: 15px;
   transform: rotateZ(90deg);
-  translate: 0px 10px;
+  translate: 0px 6px;
 }
 
 .list[open] > summary::after {
@@ -141,7 +141,7 @@
   background: url("../img/caret.png") no-repeat;
   background-size: 15px;
   transform: rotateZ(-90deg);
-  translate: 0px -3px;
+  translate: 4px 4px;
 }
 
 .list-menu {

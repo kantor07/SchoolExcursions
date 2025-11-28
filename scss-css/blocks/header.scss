@@ -89,7 +89,7 @@
   right: -15px;
   top: 20px;
 
-  padding: 30px 10px;
+  padding: 20px;
 
   width: 250px;
 
@@ -145,7 +145,7 @@
   background-size: 15px;
 
   transform: rotateZ(90deg);
-  translate: 0px 10px;
+  translate: 0px 6px;
 }
 
 .list[open] > summary::after {
@@ -154,7 +154,7 @@
   background-size: 15px;
 
   transform: rotateZ(-90deg);
-  translate: 0px -3px;
+  translate: 4px 4px;
 }
 
 .list-menu {
