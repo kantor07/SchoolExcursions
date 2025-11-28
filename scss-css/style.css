@@ -209,18 +209,39 @@
   }
 }
 /* main */
-.main-page-container {
-  background-color: #d7dcdf;
+/* mixin */
+/* mixin */
+.main-container {
+  background-color: #fff6ef;
+  outline: 1px solid green;
 }
 
-.main-container {
-  height: 600px;
-  background: url("../img/main-img.jpg") center top no-repeat;
+.main-info {
+  padding-top: 20px;
+  font-family: "Gabriela", serif;
+  font-size: 14px;
+  font-weight: 400;
+  font-style: normal;
+  color: black;
+  align-content: center;
+}
+
+.main-info-title {
+  text-align: center;
+}
+
+.main-info-img {
+  width: 280px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 @media (min-width: 620px) {
   .main-container {
-    height: 750px;
+    display: flex;
+  }
+  .main-info {
+    padding: 20px;
   }
 }
 /* section category page */
