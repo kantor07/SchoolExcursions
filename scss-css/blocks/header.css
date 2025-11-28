@@ -133,7 +133,7 @@
   padding-right: 0.5em;
   background-size: 15px;
   transform: rotateZ(90deg);
-  translate: 0px 6px;
+  translate: 0px 4px;
 }
 
 .list[open] > summary::after {
