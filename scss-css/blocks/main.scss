@@ -2,6 +2,10 @@
 @import "mixin.scss";
 
 .main-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column-reverse;
+
   background-color: #fff6ef;
 
   outline: 1px solid green;
@@ -21,11 +25,13 @@
 .main-info-img {
   width: 280px;
   object-fit: cover;
+
+  align-self: center;
 }
 
 @media (min-width: 620px) {
   .main-container {
-    display: flex;
+    flex-direction: inherit;
   }
 
   .main-info {

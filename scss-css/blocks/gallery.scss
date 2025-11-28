@@ -1,0 +1,40 @@
+/* mixin */
+@import "mixin.scss";
+
+/* section gallery */
+
+.gallery {
+  padding-top: 50px;
+
+  display: flex;
+  justify-content: center;
+}
+
+.gallery-container {
+  min-width: 280px;
+  max-width: 450px;
+}
+
+.gallery-title {
+  padding-bottom: 20px;
+
+  @include font(18px, #03a9f4);
+  text-align: center;
+}
+
+@media (min-width: 420px) {
+}
+
+@media (min-width: 620px) {
+  .gallery-cart {
+  }
+  .gallery-title {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .gallery-title {
+    font-size: 25px;
+  }
+}

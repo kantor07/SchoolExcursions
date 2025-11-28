@@ -212,6 +212,9 @@
 /* mixin */
 /* mixin */
 .main-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column-reverse;
   background-color: #fff6ef;
   outline: 1px solid green;
 }
@@ -234,11 +237,12 @@
   width: 280px;
   -o-object-fit: cover;
      object-fit: cover;
+  align-self: center;
 }
 
 @media (min-width: 620px) {
   .main-container {
-    display: flex;
+    flex-direction: inherit;
   }
   .main-info {
     padding: 20px;
@@ -433,21 +437,6 @@
   font-weight: 600;
 }
 
-/* section gallery */
-.gallery-container {
-  padding: 50px 20px;
-}
-
-.gallery-title {
-  padding-bottom: 20px;
-  font-family: "Gabriela", serif;
-  font-size: 18px;
-  font-weight: 400;
-  font-style: normal;
-  color: #03a9f4;
-  text-align: center;
-}
-
 @media (min-width: 420px) {
   .basic-info-list,
   .basic-info-list-link {
@@ -467,8 +456,7 @@
   .item-desc-list-title {
     font-size: 16px;
   }
-  .item-title,
-  .gallery-title {
+  .item-title {
     font-size: 20px;
   }
   .item-list[open] > summary::after {
@@ -495,8 +483,7 @@
   .item-cart-desc {
     font-size: 20px;
   }
-  .item-title,
-  .gallery-title {
+  .item-title {
     font-size: 25px;
   }
   .item-list[open] > summary::after {
@@ -559,8 +546,15 @@
 /*mixin */
 /* mixin */
 /* section reviews */
+.reviews {
+  display: flex;
+  justify-content: center;
+}
+
 .reviews-container {
-  padding: 50px 20px;
+  padding: 50px 0px;
+  min-width: 280px;
+  max-width: 450px;
 }
 
 .reviews-title {
@@ -663,6 +657,41 @@
   .guide-name,
   .review-date {
     font-size: 16px;
+  }
+}
+/* section gallery */
+/* mixin */
+/* mixin */
+/* section gallery */
+.gallery {
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.gallery-container {
+  min-width: 280px;
+  max-width: 450px;
+}
+
+.gallery-title {
+  padding-bottom: 20px;
+  font-family: "Gabriela", serif;
+  font-size: 18px;
+  font-weight: 400;
+  font-style: normal;
+  color: #03a9f4;
+  text-align: center;
+}
+
+@media (min-width: 620px) {
+  .gallery-title {
+    font-size: 20px;
+  }
+}
+@media (min-width: 1024px) {
+  .gallery-title {
+    font-size: 25px;
   }
 }
 /* footer */

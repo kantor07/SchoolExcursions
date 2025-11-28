@@ -2,8 +2,19 @@
 @import "mixin.scss";
 
 /* section reviews */
+.reviews {
+  display: flex;
+  justify-content: center;
+}
+
 .reviews-container {
-  padding: 50px 20px;
+  padding: 50px 0px;
+
+  min-width: 280px;
+  max-width: 450px;
+}
+
+.review-slider {
 }
 
 .reviews-title {
@@ -23,6 +34,7 @@
   height: 500px;
 
   @include font(14px, #03a9f4);
+
   border: 1px solid #03a9f4;
   border-radius: 16px;
 }

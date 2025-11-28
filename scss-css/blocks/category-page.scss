@@ -198,19 +198,6 @@
   font-weight: 600;
 }
 
-/* section gallery */
-
-.gallery-container {
-  padding: 50px 20px;
-}
-
-.gallery-title {
-  padding-bottom: 20px;
-
-  @include font(18px, #03a9f4);
-  text-align: center;
-}
-
 @media (min-width: 420px) {
   .basic-info-list,
   .basic-info-list-link {
@@ -234,8 +221,7 @@
     font-size: 16px;
   }
 
-  .item-title,
-  .gallery-title {
+  .item-title {
     font-size: 20px;
   }
 
@@ -268,8 +254,7 @@
     font-size: 20px;
   }
 
-  .item-title,
-  .gallery-title {
+  .item-title {
     font-size: 25px;
   }
 
