@@ -567,13 +567,25 @@
   border-radius: 16px;
 }
 
+.review-cart-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: scape-between;
+}
+
 .review-text {
   color: black;
+  flex-grow: 1;
 }
 
 .item-name,
-.guide-name {
+.guide-name,
+.review-date {
   font-size: 12px;
+}
+
+.review-date {
+  text-align: end;
 }
 
 .span-guide-name {
@@ -599,9 +611,6 @@
   }
 }
 @media (min-width: 620px) {
-  .review-cart {
-    height: 350px;
-  }
   .reviews-title {
     font-size: 20px;
   }
@@ -610,7 +619,8 @@
     font-size: 16px;
   }
   .item-name,
-  .guide-name {
+  .guide-name,
+  .review-date {
     font-size: 14px;
   }
   .arrow-right {
@@ -629,7 +639,8 @@
     font-size: 20px;
   }
   .item-name,
-  .guide-name {
+  .guide-name,
+  .review-date {
     font-size: 16px;
   }
 }
