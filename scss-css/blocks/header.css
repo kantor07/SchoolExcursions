@@ -129,10 +129,11 @@
   width: 20px;
   height: 20px;
   content: "";
-  background: url("../img/caret.png") no-repeat;
+  background: url("../img/arrow.png") no-repeat;
   padding-right: 0.5em;
   background-size: 15px;
   transform: rotateZ(90deg);
+  display: inline-block;
   translate: 0px 4px;
   display: inline-block;
 }
@@ -142,10 +143,11 @@
   width: 20px;
   height: 20px;
   content: "";
-  background: url("../img/caret.png") no-repeat;
+  background: url("../img/arrow.png") no-repeat;
   padding-right: 0.5em;
   background-size: 15px;
   transform: rotateZ(-90deg);
+  display: inline-block;
   translate: 4px 4px;
 }
 
@@ -198,7 +200,7 @@
   .link-list {
     font-size: 20px;
   }
-  .menu-list:nth-child(4),
+  .menu-list:nth-child(3),
   .menu-list:nth-child(5) {
     display: none;
   }
