@@ -37,17 +37,17 @@
 }
 
 .item-cart-desc {
-  padding: 0px 20px;
-
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
+  padding: 10px 20px;
+  font-weight: 600;
 }
 
-.item-img {
+.item-cart-img {
   width: 100%;
   height: 200px;
+
+  background: url(../img/item-primary-school-science4.jpeg) center no-repeat;
+  background-size: 100%;
+
   object-fit: cover;
   object-position: center;
 

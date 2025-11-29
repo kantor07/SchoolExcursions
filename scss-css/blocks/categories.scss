@@ -1,0 +1,110 @@
+/* mixin */
+@import "mixin.scss";
+
+/* section categories */
+
+.categories {
+  padding: 0px 20px;
+  margin: 0px 10px;
+
+  display: flex;
+  justify-content: center;
+
+  border-radius: 16px;
+  background-color: #fff6ef;
+}
+
+.categories-container {
+  min-width: 280px;
+}
+
+.categories-title {
+  padding: 50px 0px;
+
+  @include font(18px, #03a9f4);
+
+  text-align: center;
+}
+
+.categoties-list {
+  padding: 0px;
+
+  display: flex;
+
+  justify-content: space-around;
+  flex-wrap: wrap;
+
+  list-style-type: none;
+}
+
+.category-link {
+  text-decoration: none;
+}
+
+.categoty-line {
+  padding-bottom: 20px;
+}
+
+/* category-cart */
+
+.category-cart,
+.primary-school-img,
+.school-img,
+.graduation school-img {
+  width: 280px;
+  height: 200px;
+
+  border-radius: 16px;
+}
+
+.category-cart {
+  padding-top: 10px;
+}
+
+.primary-school-img,
+.school-img,
+.graduation-school-img {
+  object-fit: cover;
+  object-position: center;
+}
+
+.primary-school-img {
+  background: url(../img/main-img.jpg) center no-repeat;
+  background-size: 100%;
+}
+
+.high-school-img {
+  background: url(../img/sobor.jpg) center no-repeat;
+  background-size: 100%;
+}
+
+.graduation-school-img {
+  background: url(../img/main-info-img2.jpg) center no-repeat;
+  background-size: 100%;
+}
+
+.category-title {
+  padding: 10px;
+  width: 50%;
+
+  @include font(18px, #03a9f4);
+  background-color: #ffffff;
+}
+
+@media (min-width: 420px) {
+  .category-cart {
+    width: 350px;
+    height: 200px;
+  }
+}
+
+@media (min-width: 700px) {
+  .category-cart {
+    width: 315px;
+    height: 200px;
+  }
+
+  .categoties-list {
+    justify-content: space-between;
+  }
+}

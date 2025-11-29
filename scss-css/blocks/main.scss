@@ -1,7 +1,7 @@
 /* mixin */
 @import "mixin.scss";
 
-.main-info {
+.main-info-header {
   display: flex;
   justify-content: center;
   flex-direction: column-reverse;
@@ -54,7 +54,7 @@
 }
 
 @media (min-width: 620px) {
-  .main-info {
+  .main-info-header {
     flex-direction: inherit;
   }
 

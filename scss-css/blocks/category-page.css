@@ -32,16 +32,15 @@
 }
 
 .item-cart-desc {
-  padding: 0px 20px;
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
+  padding: 10px 20px;
+  font-weight: 600;
 }
 
-.item-img {
+.item-cart-img {
   width: 100%;
   height: 200px;
+  background: url(../img/item-primary-school-science4.jpeg) center no-repeat;
+  background-size: 100%;
   -o-object-fit: cover;
      object-fit: cover;
   -o-object-position: center;
@@ -65,7 +64,7 @@
   width: 20px;
   height: 20px;
   content: "";
-  background: url("../img/caret.png") no-repeat;
+  background: url("../img/arrow.png") no-repeat;
   padding-right: 0.5em;
   background-size: 12px;
   transform: rotateZ(90deg);
@@ -78,7 +77,7 @@
   width: 20px;
   height: 20px;
   content: "";
-  background: url("../img/caret.png") no-repeat;
+  background: url("../img/arrow.png") no-repeat;
   padding-right: 0.5em;
   background-size: 12px;
   transform: rotateZ(-90deg);
