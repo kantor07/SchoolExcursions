@@ -99,11 +99,11 @@
 }
 
 .basic-info {
-  padding: 0;
-  list-style-type: none;
+  padding: 10px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  list-style-type: none;
 }
 
 .basic-info-list {
@@ -115,11 +115,11 @@
   display: flex;
   justify-content: space-between;
   align-content: center;
-  margin: 0px 0px 20px 10px;
+  margin-bottom: 20px;
 }
 
 .items-link {
-  width: 280px;
+  width: 265px;
   height: 100px;
   display: block;
   align-content: center;
@@ -148,7 +148,7 @@
 }
 
 .basic-info-icon {
-  margin-right: 5px;
+  margin: 20px 0px 0px 5px;
 }
 
 .item-desc-img,

@@ -27,20 +27,7 @@
 }
 
 .items-link {
-  width: 280px;
-  height: 100px;
-  display: block;
-  align-content: center;
-  text-align: center;
-  text-decoration: none;
-  background-color: #ffffff;
-  outline: 2px solid #03a9f4;
-  border-radius: 16px;
-  transition: 1s;
-}
-.items-link:hover {
-  outline: 2px solid #ffffff;
-  box-shadow: 3px 3px 3px 3px #03a9f4;
+  /*@include link-border-swadow(200px, 50px);*/
 }
 .items-link:hover .item-link-title {
   color: #03a9f4;
