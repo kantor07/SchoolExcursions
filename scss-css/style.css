@@ -288,6 +288,7 @@
     padding: 20px;
   }
   .main-info-img {
+    padding-top: 20px;
     width: 350px;
   }
 }
@@ -738,7 +739,7 @@
 /* mixin */
 /* section gallery */
 .gallery {
-  padding-top: 50px;
+  padding: 50px 20px;
   display: flex;
   justify-content: center;
 }
