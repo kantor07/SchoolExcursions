@@ -10,8 +10,10 @@
 
   outline: 1px solid green;
 }
+.main-info-desc,
+.main-text-item {
+  @include font();
 
-.main-info-desc {
   padding: 20px 0px;
 
   align-items: center;
@@ -19,9 +21,11 @@
   justify-content: center;
   flex-direction: column;
 
-  @include font();
-
   align-content: center;
+}
+
+.main-text-item {
+  padding: 50px 20px;
 }
 
 .main-info-title {

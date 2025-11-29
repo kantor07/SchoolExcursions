@@ -226,18 +226,23 @@
   outline: 1px solid green;
 }
 
-.main-info-desc {
-  padding: 20px 0px;
-  align-items: center;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
+.main-info-desc,
+.main-text-item {
   font-family: "Gabriela", serif;
   font-size: 14px;
   font-weight: 400;
   font-style: normal;
   color: black;
+  padding: 20px 0px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
   align-content: center;
+}
+
+.main-text-item {
+  padding: 50px 20px;
 }
 
 .main-info-title {
