@@ -666,16 +666,27 @@
 }
 
 .arrow-left {
-  background: url(../img/caret.png) no-repeat;
+  width: 20px;
+  height: 20px;
+  content: "";
+  background: url("../img/arrow.png") no-repeat;
+  padding-right: 0.5em;
   background-size: 20px;
+  transform: rotateZ(0deg);
+  display: inline-block;
   translate: 15px 0px;
 }
 
 .arrow-right {
-  background: url(../img/caret.png) no-repeat;
+  width: 20px;
+  height: 20px;
+  content: "";
+  background: url("../img/arrow.png") no-repeat;
+  padding-right: 0.5em;
   background-size: 20px;
-  transform: rotate(-180deg);
-  translate: -15px -12px;
+  transform: rotateZ(-180deg);
+  display: inline-block;
+  translate: -15px 0px;
 }
 
 @media (min-width: 420px) {
@@ -702,7 +713,7 @@
     font-size: 14px;
   }
   .arrow-right {
-    translate: -20px -12px;
+    translate: -20px 0px;
   }
   .arrow-left {
     translate: 20px 0px;
