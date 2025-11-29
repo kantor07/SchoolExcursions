@@ -132,7 +132,7 @@
   width: 20px;
   height: 20px;
   content: "";
-  background: url("../img/caret.png") no-repeat;
+  background: url("../img/arrow.png") no-repeat;
   padding-right: 0.5em;
   background-size: 15px;
   transform: rotateZ(90deg);
@@ -146,7 +146,7 @@
   width: 20px;
   height: 20px;
   content: "";
-  background: url("../img/caret.png") no-repeat;
+  background: url("../img/arrow.png") no-repeat;
   padding-right: 0.5em;
   background-size: 15px;
   transform: rotateZ(-90deg);
@@ -346,7 +346,7 @@
   width: 20px;
   height: 20px;
   content: "";
-  background: url("../img/caret.png") no-repeat;
+  background: url("../img/arrow.png") no-repeat;
   padding-right: 0.5em;
   background-size: 12px;
   transform: rotateZ(90deg);
@@ -359,7 +359,7 @@
   width: 20px;
   height: 20px;
   content: "";
-  background: url("../img/caret.png") no-repeat;
+  background: url("../img/arrow.png") no-repeat;
   padding-right: 0.5em;
   background-size: 12px;
   transform: rotateZ(-90deg);
@@ -572,7 +572,7 @@
   width: 10px;
   height: 10px;
   content: "";
-  background: url("../img/caret.png") no-repeat;
+  background: url("../img/arrow.png") no-repeat;
   padding-right: 0.5em;
   background-size: 10px;
   transform: rotateZ(0deg);
