@@ -28,8 +28,8 @@
   text-align: center;
 }
 
-.items-link {
-  /*@include link-border-swadow(200px, 50px);*/
+.link-choose-item {
+  @include link-border-swadow(220px, 80px);
 
   &:hover .item-link-title {
     color: #03a9f4;
