@@ -30,19 +30,20 @@
   padding: 10px 20px;
 
   min-width: 240px;
-  max-width: 450px;
-  height: 500px;
 
-  @include font(14px, #03a9f4);
-
-  border: 1px solid #03a9f4;
-  border-radius: 16px;
+  border: none;
+  align-items: center;
 }
 
 .review-cart-text {
-  display: flex;
+  margin: 20px;
+  padding: 40px;
+
+  @include basic-border(240px, 450px);
+
+  @include font(14px, #03a9f4);
+
   flex-direction: column;
-  justify-content: scape-between;
 }
 
 .review-text {
@@ -79,7 +80,8 @@
 }
 
 @media (min-width: 420px) {
-  .review-cart {
+  .review-cart-text {
+    width: 300px;
     height: 350px;
   }
 }
@@ -87,6 +89,11 @@
 @media (min-width: 620px) {
   .reviews-title {
     font-size: 20px;
+  }
+
+  .review-cart-text {
+    width: 450px;
+    height: 300px;
   }
 
   .review-author-name,

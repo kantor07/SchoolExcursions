@@ -394,7 +394,6 @@
 }
 
 .basic-info-list {
-  margin: 0px 0px 20px 10px;
   padding: 10px;
   width: 265px;
   height: 100px;
@@ -402,8 +401,8 @@
   outline: 1px solid #03a9f4;
   display: flex;
   justify-content: space-between;
-  align-items: center;
   align-content: center;
+  margin: 0px 0px 20px 10px;
 }
 
 .items-link {
@@ -605,21 +604,27 @@
 .review-cart {
   padding: 10px 20px;
   min-width: 240px;
-  max-width: 450px;
-  height: 500px;
+  border: none;
+  align-items: center;
+}
+
+.review-cart-text {
+  margin: 20px;
+  padding: 40px;
+  padding: 10px;
+  width: 240px;
+  height: 450px;
+  border-radius: 16px;
+  outline: 1px solid #03a9f4;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
   font-family: "Gabriela", serif;
   font-size: 14px;
   font-weight: 400;
   font-style: normal;
   color: #03a9f4;
-  border: 1px solid #03a9f4;
-  border-radius: 16px;
-}
-
-.review-cart-text {
-  display: flex;
   flex-direction: column;
-  justify-content: scape-between;
 }
 
 .review-text {
@@ -655,13 +660,18 @@
 }
 
 @media (min-width: 420px) {
-  .review-cart {
+  .review-cart-text {
+    width: 300px;
     height: 350px;
   }
 }
 @media (min-width: 620px) {
   .reviews-title {
     font-size: 20px;
+  }
+  .review-cart-text {
+    width: 450px;
+    height: 300px;
   }
   .review-author-name,
   .review-text {
