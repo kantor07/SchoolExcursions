@@ -16,3 +16,42 @@
 
   color: $color;
 }
+
+@mixin basic-border($width: 265px, $height: 100px) {
+  margin: 0px 0px 20px 10px;
+  padding: 10px;
+
+  width: $width;
+  height: $height;
+
+  border-radius: 16px;
+
+  outline: 1px solid #03a9f4;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+}
+
+@mixin link-border-swadow($width: 280px, $height: 100px) {
+  width: $width;
+  height: $height;
+
+  display: block;
+  align-content: center;
+  text-align: center;
+
+  text-decoration: none;
+
+  background-color: #ffffff;
+  outline: 2px solid #03a9f4;
+  border-radius: 16px;
+
+  transition: 1s;
+
+  &:hover {
+    outline: 2px solid #ffffff;
+    box-shadow: 3px 3px 3px 3px #03a9f4;
+  }
+}

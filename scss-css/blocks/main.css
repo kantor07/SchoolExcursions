@@ -1,6 +1,6 @@
 /* mixin */
 /* mixin */
-.main-container {
+.main-info {
   display: flex;
   justify-content: center;
   flex-direction: column-reverse;
@@ -8,8 +8,12 @@
   outline: 1px solid green;
 }
 
-.main-info {
-  padding-top: 20px;
+.main-info-desc {
+  padding: 20px 0px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
   font-family: "Gabriela", serif;
   font-size: 14px;
   font-weight: 400;
@@ -22,6 +26,35 @@
   text-align: center;
 }
 
+.items-link {
+  width: 280px;
+  height: 80px;
+  display: block;
+  align-content: center;
+  text-align: center;
+  text-decoration: none;
+  background-color: #ffffff;
+  outline: 2px solid #03a9f4;
+  border-radius: 16px;
+  transition: 1s;
+}
+.items-link:hover {
+  outline: 2px solid #ffffff;
+  box-shadow: 3px 3px 3px 3px #03a9f4;
+}
+.items-link:hover .item-link-title {
+  color: #03a9f4;
+}
+
+.item-link-title {
+  font-family: "Gabriela", serif;
+  font-size: 18px;
+  font-weight: 400;
+  font-style: normal;
+  color: black;
+  transition: 1s;
+}
+
 .main-info-img {
   width: 280px;
   -o-object-fit: cover;
@@ -30,10 +63,10 @@
 }
 
 @media (min-width: 620px) {
-  .main-container {
+  .main-info {
     flex-direction: inherit;
   }
-  .main-info {
+  .main-info-desc {
     padding: 20px;
   }
   .main-info-img {

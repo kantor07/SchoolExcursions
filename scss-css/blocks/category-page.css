@@ -106,48 +106,46 @@
   justify-content: center;
 }
 
-.basic-info-list,
-.basic-info-list-link {
+.basic-info-list {
   margin: 0px 0px 20px 10px;
   padding: 10px;
   width: 265px;
   height: 100px;
   border-radius: 16px;
-  align-content: center;
-}
-
-.basic-info-list {
   outline: 1px solid #03a9f4;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  align-content: center;
 }
 
-.basic-info-list-link {
-  outline: 2px solid #03a9f4;
+.items-link {
+  width: 280px;
+  height: 100px;
+  display: block;
+  align-content: center;
   text-align: center;
+  text-decoration: none;
+  background-color: #ffffff;
+  outline: 2px solid #03a9f4;
+  border-radius: 16px;
   transition: 1s;
 }
-.basic-info-list-link:focus {
+.items-link:hover {
   outline: 2px solid #ffffff;
-  box-shadow: 1px 1px 10px rgba(3, 244, 13, 0.6196078431);
+  box-shadow: 3px 3px 3px 3px #03a9f4;
 }
-.basic-info-list-link:hover {
-  outline: 2px solid #ffffff;
-  box-shadow: 1px 1px 10px rgba(3, 244, 13, 0.6196078431);
+.items-link:hover .item-link-title {
+  color: #03a9f4;
 }
 
-.order-link {
+.item-link-title {
   font-family: "Gabriela", serif;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 400;
   font-style: normal;
-  color: #03a9f4;
-  text-decoration: none;
-  font-weight: 600;
-}
-.order-link:hover {
-  color: 1px 1px 2px rgba(3, 244, 13, 0.6196078431);
+  color: black;
+  transition: 1s;
 }
 
 .basic-info-icon {
@@ -188,7 +186,7 @@
 
 @media (min-width: 420px) {
   .basic-info-list,
-  .basic-info-list-link {
+  .items-link {
     width: 280px;
   }
 }
@@ -217,13 +215,13 @@
     translate: 0px 10px;
   }
   .basic-info-list,
-  .basic-info-list-link {
+  .items-link {
     margin: 0px 0px 20px 20px;
   }
 }
 @media (min-width: 700px) {
   .basic-info-list,
-  .basic-info-list-link {
+  .items-link {
     width: 300px;
   }
 }

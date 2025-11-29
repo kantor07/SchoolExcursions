@@ -1,7 +1,7 @@
 /* mixin */
 @import "mixin.scss";
 
-.main-container {
+.main-info {
   display: flex;
   justify-content: center;
   flex-direction: column-reverse;
@@ -11,8 +11,14 @@
   outline: 1px solid green;
 }
 
-.main-info {
-  padding-top: 20px;
+.main-info-desc {
+  padding: 20px 0px;
+
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
   @include font();
 
   align-content: center;
@@ -20,6 +26,20 @@
 
 .main-info-title {
   text-align: center;
+}
+
+.items-link {
+  @include link-border-swadow();
+
+  &:hover .item-link-title {
+    color: #03a9f4;
+  }
+}
+
+.item-link-title {
+  @include font(18px);
+
+  transition: 1s;
 }
 
 .main-info-img {
@@ -30,11 +50,11 @@
 }
 
 @media (min-width: 620px) {
-  .main-container {
+  .main-info {
     flex-direction: inherit;
   }
 
-  .main-info {
+  .main-info-desc {
     padding: 20px;
   }
 
