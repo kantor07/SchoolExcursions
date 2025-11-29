@@ -61,22 +61,28 @@
 
 .item-title::after {
   margin-left: 5px;
-  display: inline-block;
+  content: "";
   width: 20px;
   height: 20px;
   content: "";
-  background: url(../img/caret.png) no-repeat;
+  background: url("../img/caret.png") no-repeat;
   padding-right: 0.5em;
   background-size: 12px;
   transform: rotateZ(90deg);
+  display: inline-block;
   translate: 0px 4px;
 }
 
 .item-list[open] > summary::after {
   content: "";
-  background: url(../img/caret.png) no-repeat;
+  width: 20px;
+  height: 20px;
+  content: "";
+  background: url("../img/caret.png") no-repeat;
+  padding-right: 0.5em;
   background-size: 12px;
   transform: rotateZ(-90deg);
+  display: inline-block;
   translate: 0px -2px;
 }
 

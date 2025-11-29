@@ -54,3 +54,17 @@
     box-shadow: 3px 3px 3px 3px #03a9f4;
   }
 }
+
+@mixin arrow($width: 20px, $height: 20px, $size: 15px, $rotate: 90deg) {
+  width: $width;
+  height: $height;
+
+  content: "";
+  background: url("../img/caret.png") no-repeat;
+  padding-right: 0.5em;
+  background-size: $size;
+
+  transform: rotateZ($rotate);
+
+  display: inline-block;
+}

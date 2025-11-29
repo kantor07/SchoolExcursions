@@ -39,10 +39,15 @@
 }
 
 .arrow-menu-breadcrumbles {
+  padding: 5px;
+  margin-top: 2px;
   width: 10px;
   height: 10px;
-  display: inline-block;
-  padding: 5px;
-  background: url(../img/caret.png) no-repeat;
+  content: "";
+  background: url("../img/caret.png") no-repeat;
+  padding-right: 0.5em;
   background-size: 10px;
+  transform: rotateZ(0deg);
+  display: inline-block;
+  translate: 0px 1px;
 }/*# sourceMappingURL=breadcrumbles.css.map */

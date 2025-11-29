@@ -37,13 +37,9 @@
 }
 
 .arrow-menu-breadcrumbles {
-  width: 10px;
-  height: 10px;
-
-  display: inline-block;
-
   padding: 5px;
+  margin-top: 2px;
 
-  background: url(../img/caret.png) no-repeat;
-  background-size: 10px;
+  @include arrow(10px, 10px, 10px, 0deg);
+  translate: 0px 1px;
 }

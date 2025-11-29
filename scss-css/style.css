@@ -128,7 +128,7 @@
 
 .link-list::after {
   margin-left: 5px;
-  display: inline-block;
+  content: "";
   width: 20px;
   height: 20px;
   content: "";
@@ -136,14 +136,21 @@
   padding-right: 0.5em;
   background-size: 15px;
   transform: rotateZ(90deg);
+  display: inline-block;
   translate: 0px 4px;
+  display: inline-block;
 }
 
 .list[open] > summary::after {
   content: "";
+  width: 20px;
+  height: 20px;
+  content: "";
   background: url("../img/caret.png") no-repeat;
+  padding-right: 0.5em;
   background-size: 15px;
   transform: rotateZ(-90deg);
+  display: inline-block;
   translate: 4px 4px;
 }
 
@@ -335,22 +342,28 @@
 
 .item-title::after {
   margin-left: 5px;
-  display: inline-block;
+  content: "";
   width: 20px;
   height: 20px;
   content: "";
-  background: url(../img/caret.png) no-repeat;
+  background: url("../img/caret.png") no-repeat;
   padding-right: 0.5em;
   background-size: 12px;
   transform: rotateZ(90deg);
+  display: inline-block;
   translate: 0px 4px;
 }
 
 .item-list[open] > summary::after {
   content: "";
-  background: url(../img/caret.png) no-repeat;
+  width: 20px;
+  height: 20px;
+  content: "";
+  background: url("../img/caret.png") no-repeat;
+  padding-right: 0.5em;
   background-size: 12px;
   transform: rotateZ(-90deg);
+  display: inline-block;
   translate: 0px -2px;
 }
 
@@ -554,12 +567,17 @@
 }
 
 .arrow-menu-breadcrumbles {
+  padding: 5px;
+  margin-top: 2px;
   width: 10px;
   height: 10px;
-  display: inline-block;
-  padding: 5px;
-  background: url(../img/caret.png) no-repeat;
+  content: "";
+  background: url("../img/caret.png") no-repeat;
+  padding-right: 0.5em;
   background-size: 10px;
+  transform: rotateZ(0deg);
+  display: inline-block;
+  translate: 0px 1px;
 }
 
 /* section reviews */

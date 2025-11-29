@@ -125,7 +125,7 @@
 
 .link-list::after {
   margin-left: 5px;
-  display: inline-block;
+  content: "";
   width: 20px;
   height: 20px;
   content: "";
@@ -134,11 +134,16 @@
   background-size: 15px;
   transform: rotateZ(90deg);
   translate: 0px 4px;
+  display: inline-block;
 }
 
 .list[open] > summary::after {
   content: "";
+  width: 20px;
+  height: 20px;
+  content: "";
   background: url("../img/caret.png") no-repeat;
+  padding-right: 0.5em;
   background-size: 15px;
   transform: rotateZ(-90deg);
   translate: 4px 4px;
