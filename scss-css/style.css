@@ -311,7 +311,7 @@
 /* mixin */
 /* section categories */
 .categories {
-  padding: 0px 20px;
+  padding: 50px 20px;
   margin: 0px 10px;
   display: flex;
   justify-content: center;
@@ -324,7 +324,7 @@
 }
 
 .categories-title {
-  padding: 50px 0px;
+  padding-bottom: 50px;
   font-family: "Gabriela", serif;
   font-size: 18px;
   font-weight: 400;
@@ -341,12 +341,9 @@
   list-style-type: none;
 }
 
-.category-link {
-  text-decoration: none;
-}
-
 .categoty-line {
-  padding-bottom: 20px;
+  padding: 0px 20px 20px 0px;
+  text-decoration: none;
 }
 
 /* category-cart */
@@ -400,6 +397,7 @@
 
 @media (min-width: 420px) {
   .category-cart {
+    padding-left: 10px;
     width: 350px;
     height: 200px;
   }
@@ -408,9 +406,6 @@
   .category-cart {
     width: 315px;
     height: 200px;
-  }
-  .categoties-list {
-    justify-content: space-between;
   }
 }
 /* section category page */

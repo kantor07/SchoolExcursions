@@ -9,7 +9,7 @@ $main-background-color: #fff6ef;
 /* section categories */
 
 .categories {
-  padding: 0px 20px;
+  padding: 50px 20px;
   margin: 0px 10px;
 
   display: flex;
@@ -24,7 +24,7 @@ $main-background-color: #fff6ef;
 }
 
 .categories-title {
-  padding: 50px 0px;
+  padding-bottom: 50px;
 
   @include font(18px, $primory-color);
 
@@ -42,12 +42,9 @@ $main-background-color: #fff6ef;
   list-style-type: none;
 }
 
-.category-link {
-  text-decoration: none;
-}
-
 .categoty-line {
-  padding-bottom: 20px;
+  padding: 0px 20px 20px 0px;
+  text-decoration: none;
 }
 
 /* category-cart */
@@ -98,6 +95,7 @@ $main-background-color: #fff6ef;
 
 @media (min-width: 420px) {
   .category-cart {
+    padding-left: 10px;
     width: 350px;
     height: 200px;
   }
@@ -107,9 +105,5 @@ $main-background-color: #fff6ef;
   .category-cart {
     width: 315px;
     height: 200px;
-  }
-
-  .categoties-list {
-    justify-content: space-between;
   }
 }
