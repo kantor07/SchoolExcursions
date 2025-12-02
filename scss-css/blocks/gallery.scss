@@ -1,3 +1,6 @@
+/* variables */
+$primory-color: #03a9f4;
+
 /* mixin */
 @import "mixin.scss";
 
@@ -18,7 +21,7 @@
 .gallery-title {
   padding-bottom: 20px;
 
-  @include font(18px, #03a9f4);
+  @include font(18px, $primory-color);
   text-align: center;
 }
 

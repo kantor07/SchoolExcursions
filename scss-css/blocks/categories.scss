@@ -1,3 +1,8 @@
+/* variables */
+$primory-color: #03a9f4;
+$main-background-color: #fff6ef;
+/* $main-background-color: #d7dcdf; */
+
 /* mixin */
 @import "mixin.scss";
 
@@ -11,7 +16,7 @@
   justify-content: center;
 
   border-radius: 16px;
-  background-color: #fff6ef;
+  background-color: $main-background-color;
 }
 
 .categories-container {
@@ -21,7 +26,7 @@
 .categories-title {
   padding: 50px 0px;
 
-  @include font(18px, #03a9f4);
+  @include font(18px, $primory-color);
 
   text-align: center;
 }
@@ -87,7 +92,7 @@
   padding: 10px;
   width: 50%;
 
-  @include font(18px, #03a9f4);
+  @include font(18px, $primory-color);
   background-color: #ffffff;
 }
 

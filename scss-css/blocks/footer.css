@@ -1,7 +1,10 @@
+/* variables */
+/* $main-background-color: #d7dcdf; */
 /* mixin */
+/* variables */
 /* mixin */
 .footer-container {
-  background-color: #d7dcdf;
+  background-color: #fff6ef;
 }
 
 .info {

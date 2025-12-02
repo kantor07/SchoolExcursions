@@ -1,8 +1,11 @@
+/* variables */
+$primory-color: #03a9f4;
+
 /* mixin */
 @import "mixin.scss";
 
 .category-main-container {
-  border-top: 1px solid #03a9f4;
+  border-top: 1px solid $primory-color;
 }
 
 /* items */
@@ -30,7 +33,7 @@
 
 .item-cart-desc,
 .item-title {
-  @include font(14px, #03a9f4);
+  @include font(14px, $primory-color);
 
   display: flex;
   justify-content: space-between;
@@ -108,16 +111,16 @@
 }
 
 .basic-info-list {
-  @include basic-border();
+  @include border-blue();
 
   margin-bottom: 20px;
 }
 
 .items-link {
-  @include link-border-swadow();
+  @include basic-btn();
 
   &:hover .item-link-title {
-    color: #03a9f4;
+    color: $primory-color;
   }
 }
 

@@ -1,3 +1,6 @@
+/* variables */
+$primory-color: #03a9f4;
+
 /*mixin */
 @import "mixin.scss";
 
@@ -20,7 +23,7 @@
 .reviews-title {
   padding-bottom: 20px;
 
-  @include font(18px, #03a9f4);
+  @include font(18px, $primory-color);
   text-align: center;
 }
 
@@ -40,9 +43,9 @@
   margin: 20px;
   padding: 40px;
 
-  @include basic-border(240px, 450px);
+  @include border-blue(240px, 450px);
 
-  @include font(14px, #03a9f4);
+  @include font(14px, $primory-color);
 
   flex-direction: column;
 }

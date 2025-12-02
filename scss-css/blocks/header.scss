@@ -1,10 +1,13 @@
+/* variables */
+$primory-color: #03a9f4;
+
 /* mixin */
 @import "mixin.scss";
 
 /* header logo */
 
 .header {
-  border-bottom: 1px solid #03a9f4;
+  border-bottom: 1px solid $primory-color;
 }
 
 .nav,
@@ -18,16 +21,13 @@
 }
 
 .logo-href {
-  color: #03a9f4;
+  color: $primory-color;
   text-decoration: none;
 }
 
 .title {
-  font-family: "Great Vibes", cursive;
-  font-weight: 600;
-  font-style: normal;
-  font-size: 18px;
-  line-height: 0.65;
+  @include font-logo();
+
   padding-top: 12px;
 }
 
@@ -62,17 +62,17 @@
 
   display: block;
 
-  background-color: #03a9f4;
+  background-color: $primory-color;
 }
 
 .burger::before {
   margin-bottom: 3px;
-  background-color: #03a9f4;
+  background-color: $primory-color;
 }
 
 .burger::after {
   margin-top: 3px;
-  background-color: #03a9f4;
+  background-color: $primory-color;
 }
 
 .burger::before,
@@ -94,7 +94,7 @@
   width: 250px;
 
   background-color: #ffffff;
-  outline: 1px solid #03a9f4;
+  outline: 1px solid $primory-color;
   border-radius: 16px;
 }
 
@@ -223,7 +223,7 @@
     padding: 10px 10px 10px 20px;
     width: 170px;
     background-color: #ffffff;
-    border: 1px solid #03a9f4;
+    border: 1px solid $primory-color;
     border-radius: 16px;
   }
 }
