@@ -1300,7 +1300,7 @@
       const detailsOpen = document.querySelectorAll(".item-list");
 
       // добавить к каждому клику события клика //
-      [...detailsOpen].forEach((el) => {
+      detailsOpen.forEach((el) => {
         el.addEventListener("click", (_) => {
           //закрыть все кроме кликнутого //
           detailsOpen.forEach((detail) => {
