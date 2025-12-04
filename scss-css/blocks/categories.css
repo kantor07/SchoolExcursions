@@ -35,8 +35,11 @@
   list-style-type: none;
 }
 
-.categoty-line {
+.category-line {
   padding: 0px 20px 20px 0px;
+}
+
+.category-link {
   text-decoration: none;
 }
 
@@ -91,7 +94,7 @@
 
 @media (min-width: 420px) {
   .category-cart {
-    padding-left: 10px;
+    margin-left: 10px;
     width: 350px;
     height: 200px;
   }

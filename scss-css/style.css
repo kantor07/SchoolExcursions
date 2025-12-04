@@ -341,8 +341,11 @@
   list-style-type: none;
 }
 
-.categoty-line {
+.category-line {
   padding: 0px 20px 20px 0px;
+}
+
+.category-link {
   text-decoration: none;
 }
 
@@ -397,7 +400,7 @@
 
 @media (min-width: 420px) {
   .category-cart {
-    padding-left: 10px;
+    margin-left: 10px;
     width: 350px;
     height: 200px;
   }
@@ -637,11 +640,6 @@
   .items-link {
     margin: 0px 0px 20px 20px;
     width: 300px;
-  }
-}
-@media (min-width: 840px) {
-  .items-container {
-    justify-content: start;
   }
 }
 @media (min-width: 1024px) {
