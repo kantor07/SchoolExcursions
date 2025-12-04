@@ -1,7 +1,5 @@
 /* variables */
 $primory-color: #03a9f4;
-$main-background-color: #fff6ef;
-/* $main-background-color: #d7dcdf; */
 
 /*mixin */
 @import "mixin.scss";
@@ -14,19 +12,45 @@ $main-background-color: #fff6ef;
   margin: 20px;
 }
 
-.review-form-container {
-  padding: 50px 20px;
-
-  border-radius: 16px;
-  background-color: $main-background-color;
+.add-review {
+  text-align: end;
 }
 
 .review-form {
-  min-width: 280px;
-
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 
   gap: 10px;
+}
+
+.btn-add-review {
+  border: none;
+  background-color: #ffffff;
+}
+
+.add-review-icon {
+  width: 25px;
+  height: 25px;
+}
+
+.add-review-form {
+  @include border-blue(280px, 400px);
+  display: block;
+}
+
+.input-form {
+  border: none;
+  outline: 1px solid $primory-color;
+  border-radius: 5px;
+}
+
+.input-form::placeholder {
+  @include font(14px, #7b7873);
+}
+
+@media (min-width: 420px) {
+  .add-review-form {
+    width: 320px;
+  }
 }
