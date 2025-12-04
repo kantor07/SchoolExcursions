@@ -897,8 +897,12 @@
 /* mixin */
 /* variables */
 /* mixin */
-.footer-container {
+.footer {
   background-color: #fff6ef;
+}
+
+.footer-container {
+  padding-top: 10px;
 }
 
 .info {
@@ -934,6 +938,7 @@
     height: 25px;
   }
   .footer-menu {
+    padding-top: 20px;
     min-width: 480px;
   }
   .footer-menu-list:nth-child(1),
