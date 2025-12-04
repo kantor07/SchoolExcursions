@@ -739,11 +739,16 @@
   text-align: center;
 }
 
+.item-name,
+.guide-name,
+.review-date {
+  color: rgba(33, 37, 41, 0.75);
+}
+
 /* review-cart */
 .review-cart {
   padding: 10px 20px;
   min-width: 240px;
-  height: 400px;
   border: none;
   align-items: center;
 }
@@ -753,7 +758,7 @@
   padding: 40px;
   padding: 10px;
   width: 240px;
-  height: 450px;
+  height: auto;
   border-radius: 16px;
   outline: 1px solid #03a9f4;
   display: flex;
@@ -813,7 +818,6 @@
 @media (min-width: 420px) {
   .review-cart-text {
     width: 300px;
-    height: 350px;
   }
 }
 @media (min-width: 620px) {
@@ -822,7 +826,6 @@
   }
   .review-cart-text {
     width: 380px;
-    height: 300px;
   }
   .review-author-name,
   .review-text {
@@ -854,6 +857,17 @@
     font-size: 16px;
   }
 }
+/* section reviews page */
+.reviews-page-container {
+  padding: 50px 0px;
+}
+
+.reviews-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
 /* section gallery */
 /* variables */
 /* mixin */

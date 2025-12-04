@@ -24,11 +24,16 @@
   text-align: center;
 }
 
+.item-name,
+.guide-name,
+.review-date {
+  color: rgba(33, 37, 41, 0.75);
+}
+
 /* review-cart */
 .review-cart {
   padding: 10px 20px;
   min-width: 240px;
-  height: 400px;
   border: none;
   align-items: center;
 }

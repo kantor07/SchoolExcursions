@@ -1,0 +1,9 @@
+.reviews-page-container {
+  padding: 50px 0px;
+}
+
+.reviews-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}/*# sourceMappingURL=reviews-page.css.map */
