@@ -30,9 +30,9 @@ $primory-color: #03a9f4;
   color: rgb(33 37 41 / 75%);
 }
 
-/* review-cart */
+/* review-cart-slider */
 
-.review-cart {
+.review-cart-slider {
   padding: 10px 20px;
 
   min-width: 240px;
@@ -53,6 +53,8 @@ $primory-color: #03a9f4;
 }
 
 .review-text {
+  padding-top: 20px;
+
   color: black;
   flex-grow: 1;
 }
@@ -80,6 +82,18 @@ $primory-color: #03a9f4;
   @include arrow(20px, 20px, 20px, -180deg);
 
   translate: -15px 0px;
+}
+
+/* review-cart */
+.review-cart {
+  margin: 20px;
+  padding: 40px;
+
+  @include border-blue(100%, 100%);
+
+  @include font(14px, $primory-color);
+
+  flex-direction: column;
 }
 
 @media (min-width: 420px) {
