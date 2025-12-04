@@ -818,8 +818,7 @@
 
 /* review-cart */
 .review-cart {
-  margin: 20px;
-  padding: 40px;
+  margin-bottom: 20px;
   padding: 10px;
   width: 100%;
   height: 100%;
@@ -881,12 +880,31 @@
   }
 }
 /* section reviews page */
+/* variables */
+/* $main-background-color: #d7dcdf; */
+/*mixin */
+/* variables */
+/* mixin */
 .reviews-page-container {
   padding: 50px 0px;
 }
 
 .reviews-list {
   margin: 20px;
+}
+
+.review-form-container {
+  padding: 50px 20px;
+  border-radius: 16px;
+  background-color: #fff6ef;
+}
+
+.review-form {
+  min-width: 280px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 10px;
 }
 
 /* section gallery */

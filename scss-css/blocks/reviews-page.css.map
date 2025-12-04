@@ -1,1 +1,1 @@
-{"version":3,"sources":["reviews-page.scss","reviews-page.css"],"names":[],"mappings":"AAAA;EACE,iBAAA;ACCF;;ADEA;EACE,YAAA;ACCF","file":"reviews-page.css"}
+{"version":3,"sources":["reviews-page.scss","mixin.scss","reviews-page.css"],"names":[],"mappings":"AAAA,cAAA;AAGA,qCAAA;AAEA,SAAA;ACLA,cAAA;AAGA,UAAA;ADKA;EACE,iBAAA;AEFF;;AFKA;EACE,YAAA;AEFF;;AFKA;EACE,kBAAA;EAEA,mBAAA;EACA,yBAlBsB;AEexB;;AFMA;EACE,gBAAA;EAEA,aAAA;EACA,sBAAA;EACA,8BAAA;EAEA,SAAA;AELF","file":"reviews-page.css"}

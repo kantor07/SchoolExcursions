@@ -1,7 +1,26 @@
+/* variables */
+/* $main-background-color: #d7dcdf; */
+/*mixin */
+/* variables */
+/* mixin */
 .reviews-page-container {
   padding: 50px 0px;
 }
 
 .reviews-list {
   margin: 20px;
+}
+
+.review-form-container {
+  padding: 50px 20px;
+  border-radius: 16px;
+  background-color: #fff6ef;
+}
+
+.review-form {
+  min-width: 280px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 10px;
 }/*# sourceMappingURL=reviews-page.css.map */
