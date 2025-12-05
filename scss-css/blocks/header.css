@@ -127,31 +127,22 @@
 }
 
 .link-list::after {
+  width: 20px;
+  height: 17px;
   margin-left: 5px;
   content: "";
-  width: 20px;
-  height: 20px;
-  content: "";
-  background: url("../img/arrow.png") no-repeat;
   padding-right: 0.5em;
+  display: inline-block;
+  background: url("../img/icon-arrow-down.png") no-repeat;
   background-size: 15px;
-  transform: rotateZ(90deg);
-  display: inline-block;
-  translate: 0px 4px;
-  display: inline-block;
 }
 
 .list[open] > summary::after {
-  content: "";
   width: 20px;
-  height: 20px;
+  height: 10px;
   content: "";
-  background: url("../img/arrow.png") no-repeat;
-  padding-right: 0.5em;
+  background: url("../img/icon-arrow-up.png") no-repeat;
   background-size: 15px;
-  transform: rotateZ(-90deg);
-  display: inline-block;
-  translate: 4px 4px;
 }
 
 .list-menu {

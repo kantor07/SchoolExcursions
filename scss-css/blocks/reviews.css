@@ -80,24 +80,18 @@
 .arrow-left {
   width: 20px;
   height: 20px;
-  content: "";
-  background: url("../img/arrow.png") no-repeat;
   padding-right: 0.5em;
-  background-size: 20px;
-  transform: rotateZ(0deg);
   display: inline-block;
+  background: url("../img/icon-arrow-left.png") no-repeat;
   translate: 15px 0px;
 }
 
 .arrow-right {
   width: 20px;
   height: 20px;
-  content: "";
-  background: url("../img/arrow.png") no-repeat;
   padding-right: 0.5em;
-  background-size: 20px;
-  transform: rotateZ(-180deg);
   display: inline-block;
+  background: url("../img/icon-arrow-right.png") no-repeat;
   translate: -15px 0px;
 }
 

@@ -132,31 +132,22 @@
 }
 
 .link-list::after {
+  width: 20px;
+  height: 17px;
   margin-left: 5px;
   content: "";
-  width: 20px;
-  height: 20px;
-  content: "";
-  background: url("../img/arrow.png") no-repeat;
   padding-right: 0.5em;
+  display: inline-block;
+  background: url("../img/icon-arrow-down.png") no-repeat;
   background-size: 15px;
-  transform: rotateZ(90deg);
-  display: inline-block;
-  translate: 0px 4px;
-  display: inline-block;
 }
 
 .list[open] > summary::after {
-  content: "";
   width: 20px;
-  height: 20px;
+  height: 10px;
   content: "";
-  background: url("../img/arrow.png") no-repeat;
-  padding-right: 0.5em;
+  background: url("../img/icon-arrow-up.png") no-repeat;
   background-size: 15px;
-  transform: rotateZ(-90deg);
-  display: inline-block;
-  translate: 4px 4px;
 }
 
 .list-menu {
@@ -267,12 +258,9 @@
   margin-top: 2px;
   width: 10px;
   height: 10px;
-  content: "";
-  background: url("../img/arrow.png") no-repeat;
   padding-right: 0.5em;
-  background-size: 10px;
-  transform: rotateZ(0deg);
   display: inline-block;
+  background: url("../img/icon-arrow-left.png") no-repeat;
   translate: 0px 1px;
 }
 
@@ -531,29 +519,22 @@
 }
 
 .item-title::after {
-  margin-left: 5px;
+  margin: 10px 0px 0px 10px;
   content: "";
   width: 20px;
   height: 20px;
-  content: "";
-  background: url("../img/arrow.png") no-repeat;
   padding-right: 0.5em;
-  background-size: 12px;
-  transform: rotateZ(90deg);
   display: inline-block;
-  translate: 0px 4px;
+  background: url("../img/icon-arrow-left.png") no-repeat;
 }
 
 .item-list[open] > summary::after {
   content: "";
   width: 20px;
   height: 20px;
-  content: "";
-  background: url("../img/arrow.png") no-repeat;
   padding-right: 0.5em;
-  background-size: 12px;
-  transform: rotateZ(-90deg);
   display: inline-block;
+  background: url("../img/icon-arrow-left.png") no-repeat;
   translate: 10px -2px;
 }
 
@@ -797,24 +778,18 @@
 .arrow-left {
   width: 20px;
   height: 20px;
-  content: "";
-  background: url("../img/arrow.png") no-repeat;
   padding-right: 0.5em;
-  background-size: 20px;
-  transform: rotateZ(0deg);
   display: inline-block;
+  background: url("../img/icon-arrow-left.png") no-repeat;
   translate: 15px 0px;
 }
 
 .arrow-right {
   width: 20px;
   height: 20px;
-  content: "";
-  background: url("../img/arrow.png") no-repeat;
   padding-right: 0.5em;
-  background-size: 20px;
-  transform: rotateZ(-180deg);
   display: inline-block;
+  background: url("../img/icon-arrow-right.png") no-repeat;
   translate: -15px 0px;
 }
 

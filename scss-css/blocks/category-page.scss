@@ -68,17 +68,18 @@ $primory-color: #03a9f4;
 }
 
 .item-title::after {
-  margin-left: 5px;
+  margin: 10px 0px 0px 10px;
+
   content: "";
 
-  @include arrow(20px, 20px, 12px, 90deg);
-
-  translate: 0px 4px;
+  @include arrow(20px, 20px);
+  background: url("../img/icon-arrow-left.png") no-repeat;
 }
 
 .item-list[open] > summary::after {
   content: "";
-  @include arrow(20px, 20px, 12px, -90deg);
+  @include arrow(20px, 20px);
+  background: url("../img/icon-arrow-left.png") no-repeat;
 
   translate: 10px -2px;
 }

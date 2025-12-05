@@ -68,16 +68,10 @@ $primory-color: #03a9f4;
   }
 }
 
-@mixin arrow($width: 20px, $height: 20px, $size: 15px, $rotate: 90deg) {
+@mixin arrow($width: 20px, $height: 20px) {
   width: $width;
   height: $height;
 
-  content: "";
-  background: url("../img/arrow.png") no-repeat;
   padding-right: 0.5em;
-  background-size: $size;
-
-  transform: rotateZ($rotate);
-
   display: inline-block;
 }

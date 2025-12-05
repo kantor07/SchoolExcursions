@@ -40,6 +40,7 @@
   padding: 5px;
   margin-top: 2px;
 
-  @include arrow(10px, 10px, 10px, 0deg);
+  @include arrow(10px, 10px);
+  background: url("../img/icon-arrow-left.png") no-repeat;
   translate: 0px 1px;
 }

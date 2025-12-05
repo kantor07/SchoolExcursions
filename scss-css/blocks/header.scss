@@ -132,22 +132,26 @@ $primory-color: #03a9f4;
 }
 
 .link-list::after {
+  width: 20px;
+  height: 17px;
+
   margin-left: 5px;
 
   content: "";
 
-  @include arrow();
-
-  translate: 0px 4px;
+  padding-right: 0.5em;
   display: inline-block;
+  background: url("../img/icon-arrow-down.png") no-repeat;
+  background-size: 15px;
 }
 
 .list[open] > summary::after {
+  width: 20px;
+  height: 10px;
   content: "";
 
-  @include arrow(20px, 20px, 15px, -90deg);
-
-  translate: 4px 4px;
+  background: url("../img/icon-arrow-up.png") no-repeat;
+  background-size: 15px;
 }
 
 .list-menu {

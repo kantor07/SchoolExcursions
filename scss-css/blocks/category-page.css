@@ -60,29 +60,22 @@
 }
 
 .item-title::after {
-  margin-left: 5px;
+  margin: 10px 0px 0px 10px;
   content: "";
   width: 20px;
   height: 20px;
-  content: "";
-  background: url("../img/arrow.png") no-repeat;
   padding-right: 0.5em;
-  background-size: 12px;
-  transform: rotateZ(90deg);
   display: inline-block;
-  translate: 0px 4px;
+  background: url("../img/icon-arrow-left.png") no-repeat;
 }
 
 .item-list[open] > summary::after {
   content: "";
   width: 20px;
   height: 20px;
-  content: "";
-  background: url("../img/arrow.png") no-repeat;
   padding-right: 0.5em;
-  background-size: 12px;
-  transform: rotateZ(-90deg);
   display: inline-block;
+  background: url("../img/icon-arrow-left.png") no-repeat;
   translate: 10px -2px;
 }
 

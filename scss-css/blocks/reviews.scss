@@ -74,13 +74,14 @@ $primory-color: #03a9f4;
 }
 
 .arrow-left {
-  @include arrow(20px, 20px, 20px, 0deg);
+  @include arrow(20px, 20px);
+  background: url("../img/icon-arrow-left.png") no-repeat;
   translate: 15px 0px;
 }
 
 .arrow-right {
-  @include arrow(20px, 20px, 20px, -180deg);
-
+  @include arrow(20px, 20px);
+  background: url("../img/icon-arrow-right.png") no-repeat;
   translate: -15px 0px;
 }
 

@@ -44,11 +44,8 @@
   margin-top: 2px;
   width: 10px;
   height: 10px;
-  content: "";
-  background: url("../img/arrow.png") no-repeat;
   padding-right: 0.5em;
-  background-size: 10px;
-  transform: rotateZ(0deg);
   display: inline-block;
+  background: url("../img/icon-arrow-left.png") no-repeat;
   translate: 0px 1px;
 }/*# sourceMappingURL=breadcrumbles.css.map */
