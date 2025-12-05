@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* mixin */
 /* variables */
 /* mixin */
@@ -892,6 +893,7 @@
   margin: 20px;
 }
 
+/* форма отзыва */
 .add-review {
   text-align: end;
 }
@@ -916,7 +918,7 @@
 .add-review-form {
   padding: 10px;
   width: 280px;
-  height: 400px;
+  height: 550px;
   border-radius: 16px;
   outline: 1px solid #03a9f4;
   display: flex;
@@ -925,13 +927,21 @@
   display: block;
 }
 
-.input-form {
+.input-form,
+.textea-form {
+  padding: 10px;
+  font-family: "Gabriela", serif;
+  font-size: 14px;
+  font-weight: 400;
+  font-style: normal;
+  color: black;
   border: none;
   outline: 1px solid #03a9f4;
   border-radius: 5px;
 }
 
-.input-form::-moz-placeholder {
+.input-form::-moz-placeholder, .textea-form::-moz-placeholder {
+  padding: 10px;
   font-family: "Gabriela", serif;
   font-size: 14px;
   font-weight: 400;
@@ -939,17 +949,55 @@
   color: #7b7873;
 }
 
-.input-form::placeholder {
+.input-form::placeholder,
+.textea-form::placeholder {
+  padding: 10px;
   font-family: "Gabriela", serif;
   font-size: 14px;
   font-weight: 400;
   font-style: normal;
   color: #7b7873;
+}
+
+.textea-form {
+  resize: none;
+}
+
+.form-btn {
+  padding-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.review-form-btn {
+  border: none;
+  width: 120px;
+  height: 50px;
+  display: block;
+  align-content: center;
+  text-align: center;
+  text-decoration: none;
+  background-color: #ffffff;
+  outline: 2px solid #03a9f4;
+  border-radius: 16px;
+  transition: 1s;
+  font-family: "Gabriela", serif;
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+  color: #03a9f4;
+}
+.review-form-btn:hover {
+  outline: 2px solid #ffffff;
+  box-shadow: 3px 3px 3px 3px #03a9f4;
 }
 
 @media (min-width: 420px) {
   .add-review-form {
     width: 320px;
+  }
+  .review-form-btn {
+    width: 140px;
   }
 }
 /* section gallery */
