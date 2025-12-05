@@ -36,6 +36,9 @@
 .add-review:hover .add-review-form {
   transform: scale(1, 1);
 }
+.add-review:hover .btn-add-review {
+  transform: rotate(45deg);
+}
 
 .add-review-icon {
   width: 25px;

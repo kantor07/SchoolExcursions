@@ -36,8 +36,14 @@ $primory-color: #03a9f4;
   background-color: #ffffff;
 }
 
-.add-review:hover .add-review-form {
-  transform: scale(1, 1);
+.add-review {
+  &:hover .add-review-form {
+    transform: scale(1, 1);
+  }
+
+  &:hover .btn-add-review {
+    transform: rotate(45deg);
+  }
 }
 
 .add-review-icon {
