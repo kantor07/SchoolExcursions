@@ -14,8 +14,13 @@ $primory-color: #03a9f4;
 
 /* форма отзыва */
 
+.review-form-container {
+  display: flex;
+  justify-content: end;
+}
+
 .add-review {
-  text-align: end;
+  width: 20px;
 }
 
 .review-form {
@@ -31,14 +36,29 @@ $primory-color: #03a9f4;
   background-color: #ffffff;
 }
 
+.add-review:hover .add-review-form {
+  transform: scale(1, 1);
+}
+
 .add-review-icon {
   width: 25px;
   height: 25px;
 }
 
 .add-review-form {
+  margin-top: 10px;
+
+  position: absolute;
+  right: 10px;
+
   @include border-blue(280px, 550px);
   display: block;
+
+  background-color: #ffffff;
+
+  transform: scale(0, 0);
+  transform-origin: right top;
+  transition: 0.5s;
 }
 
 .input-form,
@@ -78,10 +98,16 @@ $primory-color: #03a9f4;
 
 @media (min-width: 420px) {
   .add-review-form {
-    width: 320px;
+    width: 390px;
   }
 
   .review-form-btn {
-    width: 140px;
+    width: 180px;
+  }
+}
+
+@media (min-width: 620px) {
+  .add-review {
+    width: 40px;
   }
 }
