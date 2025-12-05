@@ -1,1 +1,1 @@
-{"version":3,"sources":["blog-page.scss","mixin.scss","blog-page.css"],"names":[],"mappings":"AAAA,cAAA;AAGA,SAAA;ACHA,cAAA;AAGA,UAAA;ADGA;EACE,iBAAA;AEDF;;AFIA;EACE,YAAA;AEDF","file":"blog-page.css"}
+{"version":3,"sources":["blog-page.scss","mixin.scss"],"names":[],"mappings":"AAAA,cAAA;AAGA,SAAA;ACHA,cAAA;AAGA,UAAA","file":"blog-page.css"}

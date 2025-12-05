@@ -4,6 +4,9 @@
 /* header */
 @import "blocks/header.scss";
 
+/* section breadcrumbles */
+@import "blocks/breadcrumbles.scss";
+
 /* main */
 @import "blocks/main.scss";
 
@@ -13,8 +16,6 @@
 /* section category page */
 @import "blocks/category-page.scss";
 
-@import "blocks/breadcrumbles.scss";
-
 /* section reviews */
 @import "blocks/reviews.scss";
 
@@ -23,6 +24,9 @@
 
 /* section gallery */
 @import "blocks/gallery.scss";
+
+/* section blog page */
+@import "blocks/blog-page.scss";
 
 /* footer */
 @import "blocks/footer.scss";
