@@ -67,11 +67,3 @@ $primory-color: #03a9f4;
     box-shadow: 3px 3px 3px 3px $primory-color;
   }
 }
-
-@mixin arrow($width: 20px, $height: 20px) {
-  width: $width;
-  height: $height;
-
-  padding-right: 0.5em;
-  display: inline-block;
-}

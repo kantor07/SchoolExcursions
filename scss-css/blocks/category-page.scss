@@ -72,16 +72,24 @@ $primory-color: #03a9f4;
 
   content: "";
 
-  @include arrow(20px, 20px);
-  background: url("../img/icon-arrow-left.png") no-repeat;
+  width: 20px;
+  height: 20px;
+  background: url("../img/icon-arrow-down.png") no-repeat;
+  background-size: 60%;
+  padding-right: 0.5em;
+  display: inline-block;
 }
 
 .item-list[open] > summary::after {
   content: "";
-  @include arrow(20px, 20px);
-  background: url("../img/icon-arrow-left.png") no-repeat;
 
-  translate: 10px -2px;
+  width: 20px;
+  height: 20px;
+  background: url("../img/icon-arrow-up.png") no-repeat;
+
+  background-size: 60%;
+  padding-right: 0.5em;
+  display: inline-block;
 }
 
 .item-list[open] {
@@ -200,13 +208,11 @@ $primory-color: #03a9f4;
   }
 
   .item-list[open] > summary::after {
-    background-size: 15px;
-    translate: 0px 2px;
+    background-size: 70%;
   }
 
   .item-title::after {
-    background-size: 15px;
-    translate: 0px 10px;
+    background-size: 70%;
   }
 
   .basic-info-list,

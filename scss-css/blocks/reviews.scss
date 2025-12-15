@@ -73,16 +73,20 @@ $primory-color: #03a9f4;
   padding-right: 5px;
 }
 
+.arrow-left,
+.arrow-right {
+  width: 20px;
+  height: 20px;
+}
+
 .arrow-left {
-  @include arrow(20px, 20px);
   background: url("../img/icon-arrow-left.png") no-repeat;
-  translate: 15px 0px;
+  background-size: 100%;
 }
 
 .arrow-right {
-  @include arrow(20px, 20px);
   background: url("../img/icon-arrow-right.png") no-repeat;
-  translate: -15px 0px;
+  background-size: 100%;
 }
 
 /* review-cart */

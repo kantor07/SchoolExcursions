@@ -199,6 +199,12 @@
   .link-list {
     font-size: 20px;
   }
+  .link-list::after {
+    translate: 0px 2px;
+  }
+  .list[open] > summary::after {
+    translate: 0px -1px;
+  }
   .menu-list:nth-child(3),
   .menu-list:nth-child(5) {
     display: none;
@@ -256,12 +262,12 @@
 .arrow-menu-breadcrumbles {
   padding: 5px;
   margin-top: 2px;
+  display: inline-block;
   width: 10px;
   height: 10px;
-  padding-right: 0.5em;
-  display: inline-block;
-  background: url("../img/icon-arrow-left.png") no-repeat;
+  background: url("../img/icon-arrow-right.png") no-repeat;
   translate: 0px 1px;
+  background-size: 100%;
 }
 
 /* main */
@@ -523,19 +529,20 @@
   content: "";
   width: 20px;
   height: 20px;
+  background: url("../img/icon-arrow-down.png") no-repeat;
+  background-size: 60%;
   padding-right: 0.5em;
   display: inline-block;
-  background: url("../img/icon-arrow-left.png") no-repeat;
 }
 
 .item-list[open] > summary::after {
   content: "";
   width: 20px;
   height: 20px;
+  background: url("../img/icon-arrow-up.png") no-repeat;
+  background-size: 60%;
   padding-right: 0.5em;
   display: inline-block;
-  background: url("../img/icon-arrow-left.png") no-repeat;
-  translate: 10px -2px;
 }
 
 .item-list[open] {
@@ -667,12 +674,10 @@
     font-size: 20px;
   }
   .item-list[open] > summary::after {
-    background-size: 15px;
-    translate: 0px 2px;
+    background-size: 70%;
   }
   .item-title::after {
-    background-size: 15px;
-    translate: 0px 10px;
+    background-size: 70%;
   }
   .basic-info-list,
   .items-link {
@@ -775,22 +780,20 @@
   padding-right: 5px;
 }
 
-.arrow-left {
-  width: 20px;
-  height: 20px;
-  padding-right: 0.5em;
-  display: inline-block;
-  background: url("../img/icon-arrow-left.png") no-repeat;
-  translate: 15px 0px;
-}
-
+.arrow-left,
 .arrow-right {
   width: 20px;
   height: 20px;
-  padding-right: 0.5em;
-  display: inline-block;
+}
+
+.arrow-left {
+  background: url("../img/icon-arrow-left.png") no-repeat;
+  background-size: 100%;
+}
+
+.arrow-right {
   background: url("../img/icon-arrow-right.png") no-repeat;
-  translate: -15px 0px;
+  background-size: 100%;
 }
 
 /* review-cart */

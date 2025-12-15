@@ -40,7 +40,12 @@
   padding: 5px;
   margin-top: 2px;
 
-  @include arrow(10px, 10px);
-  background: url("../img/icon-arrow-left.png") no-repeat;
+  display: inline-block;
+
+  width: 10px;
+  height: 10px;
+
+  background: url("../img/icon-arrow-right.png") no-repeat;
   translate: 0px 1px;
+  background-size: 100%;
 }

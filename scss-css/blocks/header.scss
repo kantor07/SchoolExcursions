@@ -218,6 +218,14 @@ $primory-color: #03a9f4;
     font-size: 20px;
   }
 
+  .link-list::after {
+    translate: 0px 2px;
+  }
+
+  .list[open] > summary::after {
+    translate: 0px -1px;
+  }
+
   .menu-list:nth-child(3),
   .menu-list:nth-child(5) {
     display: none;
