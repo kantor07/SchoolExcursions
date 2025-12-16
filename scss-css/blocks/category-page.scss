@@ -135,7 +135,6 @@ $primory-color: #03a9f4;
 
 .basic-info-list {
   @include border-blue();
-  min-height: 100px;
 
   margin-bottom: 20px;
 }
