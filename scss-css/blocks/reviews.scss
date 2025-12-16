@@ -129,10 +129,11 @@ $primory-color: #03a9f4;
   }
 
   .arrow-right {
-    translate: -20px 0px;
-  }
-  .arrow-left {
     translate: 20px 0px;
+  }
+
+  .arrow-left {
+    translate: -20px 0px;
   }
 }
 
@@ -150,5 +151,9 @@ $primory-color: #03a9f4;
   .guide-name,
   .review-date {
     font-size: 16px;
+  }
+
+  .review-cart-text {
+    height: 400px;
   }
 }
