@@ -9,11 +9,15 @@
 /* items */
 .items-container {
   padding: 50px 0px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
 /* item cart */
 .item-cart {
   min-width: 280px;
+  max-width: 380px;
   margin-bottom: 30px;
   /*shadow */
   outline: 1px solid #d6d3d3;
@@ -21,10 +25,17 @@
   border-radius: 16px;
 }
 
+.link-item-cart-desc {
+  position: absolute;
+  top: -1px;
+  opacity: 0;
+  text-decoration: none;
+}
+
 .item-cart-desc,
 .item-title {
   font-family: "Gabriela", serif;
-  font-size: 14px;
+  font-size: 20px;
   font-weight: 400;
   font-style: normal;
   color: #03a9f4;
@@ -87,7 +98,7 @@
 /* section item desc */
 .item-desc {
   font-family: "Gabriela", serif;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 400;
   font-style: normal;
   color: black;
@@ -95,7 +106,7 @@
 
 .item-text {
   padding: 50px 20px;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .basic-info {
@@ -183,30 +194,15 @@
   font-weight: 600;
 }
 
-@media (min-width: 420px) {
-  .basic-info-list,
-  .items-link {
-    width: 280px;
-  }
+@media (min-width: 620px) {
   .items-container {
     padding: 50px 20px;
-    display: flex;
     justify-content: center;
+    flex-direction: row;
     flex-wrap: wrap;
   }
   .item-cart {
     margin: 10px;
-    min-width: 380px;
-  }
-}
-@media (min-width: 620px) {
-  .item-text,
-  .item-cart-desc,
-  .item-desc-list-title {
-    font-size: 16px;
-  }
-  .item-title {
-    font-size: 20px;
   }
   .item-list[open] > summary::after {
     background-size: 70%;
@@ -220,18 +216,22 @@
     width: 300px;
   }
 }
-@media (min-width: 1024px) {
-  .item-text,
-  .item-cart-desc {
-    font-size: 20px;
+@media (min-width: 700px) {
+  .item-details {
+    position: absolute;
+    opacity: 0;
   }
-  .item-title {
-    font-size: 25px;
-  }
-  .item-list[open] > summary::after {
-    font-size: 20px;
+  .link-item-cart-desc {
+    position: relative;
+    opacity: 1;
   }
   .item-title::after {
-    font-size: 20px;
+    background: none;
+  }
+}
+@media (min-width: 1024px) {
+  .item-cart {
+    max-width: 310px;
+    margin: 0px 10px 0px 0px;
   }
 }/*# sourceMappingURL=category-page.css.map */

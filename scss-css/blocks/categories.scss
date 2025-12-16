@@ -105,6 +105,10 @@ $main-background-color: #fff6ef;
 
 @media (min-width: 700px) {
   .category-cart {
-    width: 315px;
+    width: 310px;
+  }
+
+  .category-line {
+    padding: 0px 0px 20px 0px;
   }
 }
