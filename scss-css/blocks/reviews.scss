@@ -12,9 +12,6 @@ $primory-color: #03a9f4;
 
 .reviews-container {
   padding: 50px 0px;
-
-  min-width: 280px;
-  max-width: 450px;
 }
 
 .reviews-title {
@@ -45,7 +42,7 @@ $primory-color: #03a9f4;
   margin: 20px;
   padding: 40px;
 
-  @include border-blue(240px, 350px);
+  @include border-blue(200px, 450px);
 
   @include font(14px, $primory-color);
 
@@ -93,7 +90,7 @@ $primory-color: #03a9f4;
 
 /* review-cart */
 .review-cart {
-  margin-bottom: 20px;
+  margin: 20px 10px;
 
   @include border-blue(100%, 100%);
 
@@ -104,11 +101,16 @@ $primory-color: #03a9f4;
 
 @media (min-width: 420px) {
   .review-cart-text {
-    width: 300px;
+    width: 240px;
   }
 }
 
 @media (min-width: 620px) {
+  .review-cart-text {
+    width: 380px;
+    min-height: 350px;
+  }
+
   .reviews-title {
     font-size: 20px;
   }
@@ -133,8 +135,12 @@ $primory-color: #03a9f4;
   }
 }
 
-@media (min-width: 1024px) {
-  .reviews-title {
+@media (min-width: 700px) {
+  .review-cart-text {
+    width: 315px;
+  }
+
+  /*.reviews-title {
     font-size: 25px;
   }
 
@@ -147,5 +153,5 @@ $primory-color: #03a9f4;
   .guide-name,
   .review-date {
     font-size: 16px;
-  }
+  }*/
 }
