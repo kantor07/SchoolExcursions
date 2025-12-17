@@ -45,7 +45,7 @@ $primory-color: #03a9f4;
   margin: 20px;
   padding: 40px;
 
-  @include border-blue(240px, 450px);
+  @include border-blue(240px, 350px);
 
   @include font(14px, $primory-color);
 
@@ -82,11 +82,13 @@ $primory-color: #03a9f4;
 .arrow-left {
   background: url("../img/icon-arrow-left.png") no-repeat;
   background-size: 100%;
+  translate: -10px 0px;
 }
 
 .arrow-right {
   background: url("../img/icon-arrow-right.png") no-repeat;
   background-size: 100%;
+  translate: 10px 0px;
 }
 
 /* review-cart */
@@ -103,18 +105,12 @@ $primory-color: #03a9f4;
 @media (min-width: 420px) {
   .review-cart-text {
     width: 300px;
-    height: 350px;
   }
 }
 
 @media (min-width: 620px) {
   .reviews-title {
     font-size: 20px;
-  }
-
-  .review-cart-text {
-    width: 380px;
-    height: 300px;
   }
 
   .review-author-name,
@@ -151,9 +147,5 @@ $primory-color: #03a9f4;
   .guide-name,
   .review-date {
     font-size: 16px;
-  }
-
-  .review-cart-text {
-    height: 400px;
   }
 }

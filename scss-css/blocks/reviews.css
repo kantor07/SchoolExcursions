@@ -43,7 +43,7 @@
   padding: 40px;
   padding: 10px;
   width: 240px;
-  min-height: 450px;
+  min-height: 350px;
   border-radius: 16px;
   outline: 1px solid #03a9f4;
   display: flex;
@@ -86,11 +86,13 @@
 .arrow-left {
   background: url("../img/icon-arrow-left.png") no-repeat;
   background-size: 100%;
+  translate: -10px 0px;
 }
 
 .arrow-right {
   background: url("../img/icon-arrow-right.png") no-repeat;
   background-size: 100%;
+  translate: 10px 0px;
 }
 
 /* review-cart */
@@ -115,16 +117,11 @@
 @media (min-width: 420px) {
   .review-cart-text {
     width: 300px;
-    height: 350px;
   }
 }
 @media (min-width: 620px) {
   .reviews-title {
     font-size: 20px;
-  }
-  .review-cart-text {
-    width: 380px;
-    height: 300px;
   }
   .review-author-name,
   .review-text {
@@ -154,8 +151,5 @@
   .guide-name,
   .review-date {
     font-size: 16px;
-  }
-  .review-cart-text {
-    height: 400px;
   }
 }/*# sourceMappingURL=reviews.css.map */
