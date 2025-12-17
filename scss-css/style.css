@@ -492,7 +492,7 @@
 
 .link-item-cart-desc {
   position: absolute;
-  top: -1px;
+  top: -1000px;
   opacity: 0;
   text-decoration: none;
 }
@@ -595,7 +595,6 @@
   display: flex;
   justify-content: space-between;
   align-content: center;
-  min-height: 100px;
   margin-bottom: 20px;
 }
 
@@ -697,12 +696,13 @@
     max-width: 310px;
     margin: 0px 20px 20px 0px;
   }
-  .item-details {
+  .item-cart-details {
     position: absolute;
     opacity: 0;
   }
   .link-item-cart-desc {
     position: relative;
+    top: 0;
     opacity: 1;
   }
   .item-title-details::after {
