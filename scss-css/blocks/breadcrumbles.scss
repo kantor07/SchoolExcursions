@@ -37,15 +37,12 @@
 }
 
 .arrow-menu-breadcrumbles {
-  padding: 5px;
-  margin-top: 2px;
-
   display: inline-block;
 
-  width: 10px;
+  width: 15px;
   height: 10px;
 
   background: url("../img/icon-arrow-right.png") no-repeat;
-  translate: 0px 1px;
-  background-size: 100%;
+
+  background-size: 70%;
 }
