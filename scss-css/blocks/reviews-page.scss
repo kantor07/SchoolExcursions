@@ -82,7 +82,7 @@ $primory-color: #03a9f4;
 .textea-form::placeholder {
   padding: 10px;
 
-  @include font(14px, #7b7873);
+  @include font(16px, #7b7873);
 }
 
 .textea-form {
@@ -99,7 +99,7 @@ $primory-color: #03a9f4;
 .review-form-btn {
   border: none;
   @include basic-btn(120px, 50px);
-  @include font(16px, $primory-color);
+  @include font(18px, $primory-color);
 }
 
 @media (min-width: 420px) {

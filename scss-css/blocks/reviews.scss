@@ -17,8 +17,12 @@ $primory-color: #03a9f4;
 .reviews-title {
   padding-bottom: 20px;
 
-  @include font(18px, $primory-color);
+  @include font(20px, $primory-color);
   text-align: center;
+}
+
+.review-author-name {
+  font-size: 18px;
 }
 
 .item-name,
@@ -44,7 +48,7 @@ $primory-color: #03a9f4;
 
   @include border-blue(200px, 450px);
 
-  @include font(14px, $primory-color);
+  @include font(16px, $primory-color);
 
   flex-direction: column;
 }
@@ -59,7 +63,7 @@ $primory-color: #03a9f4;
 .item-name,
 .guide-name,
 .review-date {
-  font-size: 12px;
+  font-size: 14px;
 }
 
 .review-date {
@@ -94,7 +98,7 @@ $primory-color: #03a9f4;
 
   @include border-blue(100%, 100%);
 
-  @include font(14px, $primory-color);
+  @include font(16px, $primory-color);
 
   flex-direction: column;
 }
@@ -111,21 +115,6 @@ $primory-color: #03a9f4;
     min-height: 350px;
   }
 
-  .reviews-title {
-    font-size: 20px;
-  }
-
-  .review-author-name,
-  .review-text {
-    font-size: 16px;
-  }
-
-  .item-name,
-  .guide-name,
-  .review-date {
-    font-size: 14px;
-  }
-
   .arrow-right {
     translate: 20px 0px;
   }
@@ -139,19 +128,4 @@ $primory-color: #03a9f4;
   .review-cart-text {
     width: 315px;
   }
-
-  /*.reviews-title {
-    font-size: 25px;
-  }
-
-  .review-author-name,
-  .review-text {
-    font-size: 20px;
-  }
-
-  .item-name,
-  .guide-name,
-  .review-date {
-    font-size: 16px;
-  }*/
 }

@@ -15,11 +15,15 @@
 .reviews-title {
   padding-bottom: 20px;
   font-family: "Gabriela", serif;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 400;
   font-style: normal;
   color: #03a9f4;
   text-align: center;
+}
+
+.review-author-name {
+  font-size: 18px;
 }
 
 .item-name,
@@ -48,7 +52,7 @@
   justify-content: space-between;
   align-content: center;
   font-family: "Gabriela", serif;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 400;
   font-style: normal;
   color: #03a9f4;
@@ -64,7 +68,7 @@
 .item-name,
 .guide-name,
 .review-date {
-  font-size: 12px;
+  font-size: 14px;
 }
 
 .review-date {
@@ -105,7 +109,7 @@
   justify-content: space-between;
   align-content: center;
   font-family: "Gabriela", serif;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 400;
   font-style: normal;
   color: #03a9f4;
@@ -122,18 +126,6 @@
     width: 380px;
     min-height: 350px;
   }
-  .reviews-title {
-    font-size: 20px;
-  }
-  .review-author-name,
-  .review-text {
-    font-size: 16px;
-  }
-  .item-name,
-  .guide-name,
-  .review-date {
-    font-size: 14px;
-  }
   .arrow-right {
     translate: 20px 0px;
   }
@@ -145,18 +137,4 @@
   .review-cart-text {
     width: 315px;
   }
-  /*.reviews-title {
-    font-size: 25px;
-  }
-
-  .review-author-name,
-  .review-text {
-    font-size: 20px;
-  }
-
-  .item-name,
-  .guide-name,
-  .review-date {
-    font-size: 16px;
-  }*/
 }/*# sourceMappingURL=reviews.css.map */

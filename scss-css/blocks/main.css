@@ -10,10 +10,19 @@
   outline: 1px solid green;
 }
 
+.main-info-title,
+.desc-title {
+  font-family: "Gabriela", serif;
+  font-size: 20px;
+  font-weight: 400;
+  font-style: normal;
+  color: black;
+}
+
 .main-info-desc,
 .main-text-item {
   font-family: "Gabriela", serif;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 400;
   font-style: normal;
   color: black;

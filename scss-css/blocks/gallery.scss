@@ -21,23 +21,6 @@ $primory-color: #03a9f4;
 .gallery-title {
   padding-bottom: 20px;
 
-  @include font(18px, $primory-color);
+  @include font(20px, $primory-color);
   text-align: center;
-}
-
-@media (min-width: 420px) {
-}
-
-@media (min-width: 620px) {
-  .gallery-cart {
-  }
-  .gallery-title {
-    font-size: 20px;
-  }
-}
-
-@media (min-width: 1024px) {
-  .gallery-title {
-    font-size: 25px;
-  }
 }

@@ -117,7 +117,7 @@
 .menu-link,
 .link-list {
   font-family: "Gabriela", serif;
-  font-size: 25px;
+  font-size: 20px;
   font-weight: 400;
   font-style: normal;
   color: black;
@@ -236,7 +236,7 @@
 .menu-link-breadcrumbles,
 .menu-link-breadcrumbles-bold {
   font-family: "Gabriela", serif;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 400;
   font-style: normal;
   color: black;
@@ -283,10 +283,19 @@
   outline: 1px solid green;
 }
 
+.main-info-title,
+.desc-title {
+  font-family: "Gabriela", serif;
+  font-size: 20px;
+  font-weight: 400;
+  font-style: normal;
+  color: black;
+}
+
 .main-info-desc,
 .main-text-item {
   font-family: "Gabriela", serif;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 400;
   font-style: normal;
   color: black;
@@ -377,7 +386,7 @@
 .categories-title {
   padding-bottom: 50px;
   font-family: "Gabriela", serif;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 400;
   font-style: normal;
   color: #03a9f4;
@@ -442,7 +451,7 @@
   padding: 10px;
   width: 50%;
   font-family: "Gabriela", serif;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 400;
   font-style: normal;
   color: #03a9f4;
@@ -620,7 +629,7 @@
 
 .item-link-title {
   font-family: "Gabriela", serif;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 400;
   font-style: normal;
   color: black;
@@ -728,11 +737,15 @@
 .reviews-title {
   padding-bottom: 20px;
   font-family: "Gabriela", serif;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 400;
   font-style: normal;
   color: #03a9f4;
   text-align: center;
+}
+
+.review-author-name {
+  font-size: 18px;
 }
 
 .item-name,
@@ -761,7 +774,7 @@
   justify-content: space-between;
   align-content: center;
   font-family: "Gabriela", serif;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 400;
   font-style: normal;
   color: #03a9f4;
@@ -777,7 +790,7 @@
 .item-name,
 .guide-name,
 .review-date {
-  font-size: 12px;
+  font-size: 14px;
 }
 
 .review-date {
@@ -818,7 +831,7 @@
   justify-content: space-between;
   align-content: center;
   font-family: "Gabriela", serif;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 400;
   font-style: normal;
   color: #03a9f4;
@@ -835,18 +848,6 @@
     width: 380px;
     min-height: 350px;
   }
-  .reviews-title {
-    font-size: 20px;
-  }
-  .review-author-name,
-  .review-text {
-    font-size: 16px;
-  }
-  .item-name,
-  .guide-name,
-  .review-date {
-    font-size: 14px;
-  }
   .arrow-right {
     translate: 20px 0px;
   }
@@ -858,20 +859,6 @@
   .review-cart-text {
     width: 315px;
   }
-  /*.reviews-title {
-    font-size: 25px;
-  }
-
-  .review-author-name,
-  .review-text {
-    font-size: 20px;
-  }
-
-  .item-name,
-  .guide-name,
-  .review-date {
-    font-size: 16px;
-  }*/
 }
 /* section reviews page */
 /* variables */
@@ -943,7 +930,7 @@
 .textea-form {
   padding: 10px;
   font-family: "Gabriela", serif;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 400;
   font-style: normal;
   color: black;
@@ -955,7 +942,7 @@
 .input-form::-moz-placeholder, .textea-form::-moz-placeholder {
   padding: 10px;
   font-family: "Gabriela", serif;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 400;
   font-style: normal;
   color: #7b7873;
@@ -965,7 +952,7 @@
 .textea-form::placeholder {
   padding: 10px;
   font-family: "Gabriela", serif;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 400;
   font-style: normal;
   color: #7b7873;
@@ -994,7 +981,7 @@
   border-radius: 16px;
   transition: 1s;
   font-family: "Gabriela", serif;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 400;
   font-style: normal;
   color: #03a9f4;
@@ -1037,23 +1024,13 @@
 .gallery-title {
   padding-bottom: 20px;
   font-family: "Gabriela", serif;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 400;
   font-style: normal;
   color: #03a9f4;
   text-align: center;
 }
 
-@media (min-width: 620px) {
-  .gallery-title {
-    font-size: 20px;
-  }
-}
-@media (min-width: 1024px) {
-  .gallery-title {
-    font-size: 25px;
-  }
-}
 /* section blog page */
 /* variables */
 /*mixin */
@@ -1105,10 +1082,6 @@
   background-size: 60%;
   padding-right: 0.5em;
   display: inline-block;
-}
-
-.blog-list[open] {
-  border-radius: 16px 16px 0px 0px;
 }
 
 .blog-desc {

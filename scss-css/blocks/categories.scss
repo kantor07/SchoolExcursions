@@ -26,7 +26,7 @@ $main-background-color: #fff6ef;
 .categories-title {
   padding-bottom: 50px;
 
-  @include font(18px, $primory-color);
+  @include font(20px, $primory-color);
 
   text-align: center;
 }
@@ -92,7 +92,7 @@ $main-background-color: #fff6ef;
   padding: 10px;
   width: 50%;
 
-  @include font(18px, $primory-color);
+  @include font(20px, $primory-color);
   background-color: #ffffff;
 }
 

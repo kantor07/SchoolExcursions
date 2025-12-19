@@ -50,10 +50,6 @@
   display: inline-block;
 }
 
-.blog-list[open] {
-  border-radius: 16px 16px 0px 0px;
-}
-
 .blog-desc {
   padding-top: 50px;
   font-family: "Gabriela", serif;

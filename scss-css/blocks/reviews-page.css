@@ -68,7 +68,7 @@
 .textea-form {
   padding: 10px;
   font-family: "Gabriela", serif;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 400;
   font-style: normal;
   color: black;
@@ -80,7 +80,7 @@
 .input-form::-moz-placeholder, .textea-form::-moz-placeholder {
   padding: 10px;
   font-family: "Gabriela", serif;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 400;
   font-style: normal;
   color: #7b7873;
@@ -90,7 +90,7 @@
 .textea-form::placeholder {
   padding: 10px;
   font-family: "Gabriela", serif;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 400;
   font-style: normal;
   color: #7b7873;
@@ -119,7 +119,7 @@
   border-radius: 16px;
   transition: 1s;
   font-family: "Gabriela", serif;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 400;
   font-style: normal;
   color: #03a9f4;
