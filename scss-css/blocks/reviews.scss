@@ -43,7 +43,7 @@ $primory-color: #03a9f4;
   border: none;
 }
 
-.second-cart,
+.second-card,
 .third-card {
   display: none;
 }
@@ -122,11 +122,14 @@ $primory-color: #03a9f4;
 }
 
 @media (min-width: 620px) {
+  .carousel-item-next,
+  .carousel-item-prev,
   .carousel-item.active {
     display: flex;
+    justify-content: space-around;
   }
 
-  .second-cart {
+  .second-card {
     display: block;
   }
 
@@ -148,11 +151,13 @@ $primory-color: #03a9f4;
   }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 700px) {
   .review-cart-slider {
     width: 315px;
   }
+}
 
+@media (min-width: 1024px) {
   .third-card {
     display: block;
   }
