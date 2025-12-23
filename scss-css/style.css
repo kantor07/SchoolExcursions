@@ -767,6 +767,11 @@
   border: none;
 }
 
+.second-cart,
+.third-card {
+  display: none;
+}
+
 .review-cart-text {
   font-family: "Gabriela", serif;
   font-size: 16px;
@@ -853,6 +858,9 @@
   .carousel-item.active {
     display: flex;
   }
+  .second-cart {
+    display: block;
+  }
   .review-cart-slider {
     width: 300px;
     min-height: 450px;
@@ -867,9 +875,12 @@
     translate: -20px 0px;
   }
 }
-@media (min-width: 700px) {
+@media (min-width: 1024px) {
   .review-cart-slider {
     width: 315px;
+  }
+  .third-card {
+    display: block;
   }
 }
 /* section reviews page */

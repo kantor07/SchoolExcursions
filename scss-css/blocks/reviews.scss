@@ -43,6 +43,11 @@ $primory-color: #03a9f4;
   border: none;
 }
 
+.second-cart,
+.third-card {
+  display: none;
+}
+
 .review-cart-text {
   @include font(16px, $primory-color);
 
@@ -121,6 +126,10 @@ $primory-color: #03a9f4;
     display: flex;
   }
 
+  .second-cart {
+    display: block;
+  }
+
   .review-cart-slider {
     width: 300px;
     min-height: 450px;
@@ -139,8 +148,12 @@ $primory-color: #03a9f4;
   }
 }
 
-@media (min-width: 700px) {
+@media (min-width: 1024px) {
   .review-cart-slider {
     width: 315px;
+  }
+
+  .third-card {
+    display: block;
   }
 }
