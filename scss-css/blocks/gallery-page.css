@@ -3,14 +3,73 @@
 /* mixin */
 /* variables */
 /* mixin */
-.gallery-img {
+.gallery-page-container {
+  padding: 50px 0px;
+}
+
+.gallery-list {
+  display: flex;
+  justify-content: center;
+}
+
+.gallery-line {
+  width: 280px;
   position: relative;
   transition: 0.5s;
 }
-.gallery-img:hover .overlay {
+.gallery-line:hover .gallery-img {
+  transform: scale(1.5);
+}
+.gallery-line:hover .overlay {
   opacity: 1;
 }
 
+.gallery-img {
+  width: 280px;
+  height: 200px;
+  transition: 0.5s;
+}
+
 .overlay {
+  height: 240px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
   opacity: 0;
+  transition: 0.5s;
+}
+
+.gallery-link {
+  width: 220px;
+  height: 50px;
+  display: block;
+  align-content: center;
+  text-align: center;
+  text-decoration: none;
+  background-color: #ffffff;
+  outline: 2px solid #03a9f4;
+  border-radius: 16px;
+  transition: 1s;
+  text-decoration: none;
+}
+.gallery-link:hover {
+  outline: 2px solid #ffffff;
+  box-shadow: 3px 3px 3px 3px #03a9f4;
+}
+.gallery-link:hover .gallery-link-title {
+  color: #03a9f4;
+}
+
+.gallery-link-title {
+  font-family: "Gabriela", serif;
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+  color: black;
 }/*# sourceMappingURL=gallery-page.css.map */

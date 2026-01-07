@@ -6,15 +6,66 @@ $main-background-color: #fff6ef;
 /* mixin */
 @import "mixin.scss";
 
-.gallery-img {
+.gallery-page-container {
+  padding: 50px 0px;
+}
+
+.gallery-list {
+  display: flex;
+  justify-content: center;
+}
+
+.gallery-line {
+  width: 280px;
+
   position: relative;
   transition: 0.5s;
+
+  &:hover .gallery-img {
+    transform: scale(1.5);
+  }
 
   &:hover .overlay {
     opacity: 1;
   }
 }
 
+.gallery-img {
+  width: 280px;
+  height: 200px;
+
+  transition: 0.5s;
+}
+
 .overlay {
+  height: 240px;
+
+  position: absolute;
+
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
   opacity: 0;
+  transition: 0.5s;
+}
+
+.gallery-link {
+  @include basic-btn(220px, 50px);
+
+  text-decoration: none;
+
+  &:hover .gallery-link-title {
+    color: $primory-color;
+  }
+}
+
+.gallery-link-title {
+  @include font();
 }
