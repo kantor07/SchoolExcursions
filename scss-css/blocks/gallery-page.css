@@ -1,0 +1,16 @@
+/* variables */
+/* $main-background-color: #d7dcdf; */
+/* mixin */
+/* variables */
+/* mixin */
+.gallery-img {
+  position: relative;
+  transition: 0.5s;
+}
+.gallery-img:hover .overlay {
+  opacity: 1;
+}
+
+.overlay {
+  opacity: 0;
+}/*# sourceMappingURL=gallery-page.css.map */

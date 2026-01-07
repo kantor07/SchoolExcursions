@@ -1,0 +1,20 @@
+/* variables */
+$primory-color: #03a9f4;
+$main-background-color: #fff6ef;
+/* $main-background-color: #d7dcdf; */
+
+/* mixin */
+@import "mixin.scss";
+
+.gallery-img {
+  position: relative;
+  transition: 0.5s;
+
+  &:hover .overlay {
+    opacity: 1;
+  }
+}
+
+.overlay {
+  opacity: 0;
+}
