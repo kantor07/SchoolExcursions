@@ -83,13 +83,14 @@
 
 .category-title {
   padding: 10px;
-  width: 50%;
+  width: 52%;
   font-family: "Gabriela", serif;
   font-size: 20px;
   font-weight: 400;
   font-style: normal;
   color: #03a9f4;
   background-color: #ffffff;
+  text-align: center;
 }
 
 @media (min-width: 620px) {
