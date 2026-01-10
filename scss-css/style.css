@@ -908,6 +908,7 @@
 }
 
 .add-review {
+  position: relative;
   width: 20px;
 }
 
