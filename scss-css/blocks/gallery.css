@@ -22,4 +22,17 @@
   font-style: normal;
   color: #03a9f4;
   text-align: center;
+}
+
+/* carousel */
+.carousel-item-border {
+  border-radius: 16px;
+}
+
+button.carousel-control-prev.btn-slider-gallery {
+  translate: -40px 0px;
+}
+
+button.carousel-control-next.btn-slider-gallery {
+  translate: 40px 0px;
 }/*# sourceMappingURL=gallery.css.map */

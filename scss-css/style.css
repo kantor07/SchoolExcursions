@@ -1058,6 +1058,19 @@
   text-align: center;
 }
 
+/* carousel */
+.carousel-item-border {
+  border-radius: 16px;
+}
+
+button.carousel-control-prev.btn-slider-gallery {
+  translate: -40px 0px;
+}
+
+button.carousel-control-next.btn-slider-gallery {
+  translate: 40px 0px;
+}
+
 /* section gallery page*/
 /* variables */
 /* $main-background-color: #d7dcdf; */
