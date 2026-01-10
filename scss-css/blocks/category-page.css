@@ -204,8 +204,9 @@
   }
 }
 @media (min-width: 620px) {
-  .items-container {
+  .items-cart {
     padding: 50px 20px;
+    display: flex;
     justify-content: center;
     flex-direction: row;
     flex-wrap: wrap;
