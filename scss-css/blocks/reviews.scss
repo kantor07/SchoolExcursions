@@ -38,7 +38,7 @@ $primory-color: #03a9f4;
   padding: 0px;
 
   align-items: center;
-  @include border-blue(270px, 470px);
+  @include border-blue(270px, 320px);
 
   border: none;
 }
@@ -117,7 +117,6 @@ $primory-color: #03a9f4;
 @media (min-width: 420px) {
   .review-cart-slider {
     width: 370px;
-    min-height: 400px;
   }
 }
 
@@ -135,7 +134,6 @@ $primory-color: #03a9f4;
 
   .review-cart-slider {
     width: 300px;
-    min-height: 450px;
   }
 
   .btn-carousel {
