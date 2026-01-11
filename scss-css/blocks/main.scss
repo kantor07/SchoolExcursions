@@ -6,13 +6,15 @@ $main-background-color: #fff6ef;
 @import "mixin.scss";
 
 .main-info-header {
+  background-color: $main-background-color;
+
+  /* outline: 1px solid green; */
+}
+
+.main-info-container {
   display: flex;
   justify-content: center;
   flex-direction: column-reverse;
-
-  background-color: $main-background-color;
-
-  outline: 1px solid green;
 }
 
 .main-info-title,
@@ -64,8 +66,9 @@ $main-background-color: #fff6ef;
 }
 
 @media (min-width: 620px) {
-  .main-info-header {
-    flex-direction: inherit;
+  .main-info-container {
+    flex-direction: row;
+    justify-content: space-between;
   }
 
   .main-info-desc {
