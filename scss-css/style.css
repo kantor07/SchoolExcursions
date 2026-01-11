@@ -8,10 +8,6 @@
 /* variables */
 /* mixin */
 /* header logo */
-.header {
-  border-bottom: 1px solid #03a9f4;
-}
-
 .nav,
 .logo-href {
   display: flex;
@@ -218,12 +214,15 @@
   }
 }
 /* section breadcrumbles */
+/* variables */
 /* mixin */
 /* variables */
 /* mixin */
 /* breadcrumbles */
 .breadcrumbles {
-  padding: 10px 0px;
+  margin: 10px 0px;
+  border-top: 1px solid #03a9f4;
+  border-bottom: 1px solid #03a9f4;
 }
 
 .menu-breadcrumbles {
@@ -479,10 +478,6 @@
 /* mixin */
 /* variables */
 /* mixin */
-.category-main-container {
-  border-top: 1px solid #03a9f4;
-}
-
 /* items */
 .items-container {
   padding: 50px 0px;

@@ -3,10 +3,6 @@
 /* variables */
 /* mixin */
 /* header logo */
-.header {
-  border-bottom: 1px solid #03a9f4;
-}
-
 .nav,
 .logo-href {
   display: flex;

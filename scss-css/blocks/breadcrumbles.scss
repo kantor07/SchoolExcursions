@@ -1,9 +1,14 @@
+/* variables */
+$primory-color: #03a9f4;
+
 /* mixin */
 @import "mixin.scss";
 
 /* breadcrumbles */
 .breadcrumbles {
-  padding: 10px 0px;
+  margin: 10px 0px;
+  border-top: 1px solid $primory-color;
+  border-bottom: 1px solid $primory-color;
 }
 
 .menu-breadcrumbles {
