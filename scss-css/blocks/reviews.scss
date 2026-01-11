@@ -49,6 +49,8 @@ $primory-color: #03a9f4;
 }
 
 .review-cart-text {
+  height: 300px;
+
   @include font(16px, $primory-color);
 
   display: flex;
