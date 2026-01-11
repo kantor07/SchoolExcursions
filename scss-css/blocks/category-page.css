@@ -201,7 +201,7 @@
 }
 @media (min-width: 620px) {
   .items-cart {
-    padding: 50px 20px;
+    padding: 0px 20px;
     display: flex;
     justify-content: center;
     flex-direction: row;
@@ -225,7 +225,7 @@
 }
 @media (min-width: 700px) {
   .item-cart {
-    max-width: 310px;
+    width: 310px;
     margin: 0px 20px 20px 0px;
   }
   .item-cart-details {
@@ -239,5 +239,10 @@
   }
   .item-title-details::after {
     background: none;
+  }
+}
+@media (min-width: 1100px) {
+  .item-cart {
+    width: 500px;
   }
 }/*# sourceMappingURL=category-page.css.map */

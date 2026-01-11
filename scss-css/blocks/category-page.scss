@@ -197,7 +197,7 @@ $primory-color: #03a9f4;
 
 @media (min-width: 620px) {
   .items-cart {
-    padding: 50px 20px;
+    padding: 0px 20px;
 
     display: flex;
     justify-content: center;
@@ -227,7 +227,7 @@ $primory-color: #03a9f4;
 
 @media (min-width: 700px) {
   .item-cart {
-    max-width: 310px;
+    width: 310px;
     margin: 0px 20px 20px 0px;
   }
 
@@ -244,5 +244,11 @@ $primory-color: #03a9f4;
 
   .item-title-details::after {
     background: none;
+  }
+}
+
+@media (min-width: 1100px) {
+  .item-cart {
+    width: 500px;
   }
 }
