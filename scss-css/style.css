@@ -409,6 +409,13 @@
 
 .category-link {
   text-decoration: none;
+  transition: 0.5s;
+}
+.category-link:hover {
+  transform: scale(1.2);
+}
+.category-link:hover .category-cart {
+  transform: scale(1.2);
 }
 
 /* category-cart */
@@ -419,6 +426,7 @@
   width: 280px;
   height: 200px;
   border-radius: 16px;
+  transition: 0.5s;
 }
 
 .category-cart {

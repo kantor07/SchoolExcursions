@@ -48,6 +48,15 @@ $main-background-color: #fff6ef;
 
 .category-link {
   text-decoration: none;
+  transition: 0.5s;
+
+  &:hover {
+    transform: scale(1.2);
+  }
+
+  &:hover .category-cart {
+    transform: scale(1.2);
+  }
 }
 
 /* category-cart */
@@ -60,6 +69,7 @@ $main-background-color: #fff6ef;
   height: 200px;
 
   border-radius: 16px;
+  transition: 0.5s;
 }
 
 .category-cart {
