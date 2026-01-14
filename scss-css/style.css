@@ -8,6 +8,10 @@
 /* variables */
 /* mixin */
 /* header logo */
+.header-container {
+  border-bottom: 1px solid rgba(3, 169, 244, 0.2784313725);
+}
+
 .nav,
 .logo-href {
   display: flex;
@@ -221,8 +225,6 @@
 /* breadcrumbles */
 .breadcrumbles {
   margin: 10px 0px;
-  border-top: 1px solid #03a9f4;
-  border-bottom: 1px solid #03a9f4;
 }
 
 .menu-breadcrumbles {
@@ -363,7 +365,7 @@
     width: 350px;
   }
 }
-/*section categories */
+/* section categories */
 /* variables */
 /* $main-background-color: #d7dcdf; */
 /* mixin */

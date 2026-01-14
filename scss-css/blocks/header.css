@@ -3,6 +3,10 @@
 /* variables */
 /* mixin */
 /* header logo */
+.header-container {
+  border-bottom: 1px solid rgba(3, 169, 244, 0.2784313725);
+}
+
 .nav,
 .logo-href {
   display: flex;

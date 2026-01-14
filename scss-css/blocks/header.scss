@@ -5,6 +5,9 @@ $primory-color: #03a9f4;
 @import "mixin.scss";
 
 /* header logo */
+.header-container {
+  border-bottom: 1px solid #03a9f447;
+}
 
 .nav,
 .logo-href {
